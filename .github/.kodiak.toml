@@ -12,4 +12,4 @@ prioritize_ready_to_merge = true
 always = true
 
 [approve]
-auto_approve_usernames = ["renovate"]
+auto_approve_usernames = ["renovate", "duongdev"]
