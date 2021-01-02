@@ -1,0 +1,53 @@
+{
+  "extends": ["tslint-config-airbnb", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": []
+  },
+  "rules": {
+    "deprecation": true,
+    "semicolon": false,
+    "trailing-comma": false,
+    "eofline": false,
+    "no-consecutive-blank-lines": false,
+    "quotemark": {
+      "severity": "warn",
+      "options": ["single", "jsx-double"]
+    },
+    "no-trailing-whitespace": false,
+    "import-name": false,
+    "align": false,
+    "max-line-length": false,
+    "typedef": [true, "call-signature"],
+    "curly": true,
+    "variable-name": false,
+    "no-console": true,
+    "ordered-imports": {
+      "severity": "warn",
+      "options": {
+        "grouped-imports": true,
+        "groups": [
+          {
+            "name": "common libs",
+            "match": "^(lodash|react)$",
+            "order": 10
+          },
+          {
+            "name": "Internal imports",
+            "match": "^(utils)",
+            "order": 30
+          },
+          {
+            "name": "Relative imports",
+            "match": "^[.].*",
+            "order": 50
+          },
+          {
+            "name": "node_modules",
+            "match": ".*",
+            "order": 20
+          }
+        ]
+      }
+    }
+  }
+}
