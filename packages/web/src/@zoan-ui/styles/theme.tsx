@@ -1,4 +1,4 @@
-import { createMuiTheme, ThemeOptions } from '@material-ui/core'
+import { createMuiTheme, Theme, ThemeOptions } from '@material-ui/core'
 import Check from '@material-ui/icons/Check'
 import Color from 'color'
 
@@ -16,7 +16,7 @@ const SECONDARY_COLOR_DARK = Color(SECONDARY_COLOR_MAIN).darken(0.2).string()
 const SPACING = 8
 
 /** @see https://github.com/targeek/guru-erp/blob/master/packages/guru-ui-mui/src/themes/themes.tsx */
-export const createZoanTheme = () => {
+export const createZoanTheme = (): Theme => {
   const palette: ThemeOptions['palette'] = {
     primary: {
       main: PRIMARY_COLOR_MAIN,
@@ -119,6 +119,7 @@ export const createZoanTheme = () => {
             textTransform: BUTTON_UPPER_CASED ? 'uppercase' : 'none',
           },
           label: {
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             userSelect: 'none !important' as any,
           },
           sizeSmall: {

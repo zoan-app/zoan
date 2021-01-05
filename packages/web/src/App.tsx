@@ -1,6 +1,8 @@
+import { FC } from 'react'
+
 import { ThemeProvider } from '@zoan-ui/styles'
 
-const App = () => {
+const App: FC = () => {
   return <ThemeProvider>Content</ThemeProvider>
 }
 

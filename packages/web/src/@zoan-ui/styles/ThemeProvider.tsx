@@ -8,23 +8,6 @@ import {
 
 import { light } from './theme'
 
-export type ThemeProviderProps = {}
-
-export const ThemeProvider: FC<ThemeProviderProps> = (props) => {
-  return (
-    <MuiThemeProvider theme={light}>
-      <CssBaseline />
-      <WithGlobalCSS>{props.children}</WithGlobalCSS>
-    </MuiThemeProvider>
-  )
-}
-
-const WithGlobalCSS: FC = ({ children }) => {
-  useGlobalCss()
-
-  return <>{children}</>
-}
-
 const useGlobalCss = makeStyles(({ palette }) => ({
   '@global': {
     a: {
@@ -32,3 +15,22 @@ const useGlobalCss = makeStyles(({ palette }) => ({
     },
   },
 }))
+
+const WithGlobalCSS: FC = ({ children }) => {
+  useGlobalCss()
+
+  return <>{children}</>
+}
+
+export type ThemeProviderProps = {}
+
+export const ThemeProvider: FC<ThemeProviderProps> = (props) => {
+  const { children } = props
+
+  return (
+    <MuiThemeProvider theme={light}>
+      <CssBaseline />
+      <WithGlobalCSS>{children}</WithGlobalCSS>
+    </MuiThemeProvider>
+  )
+}
