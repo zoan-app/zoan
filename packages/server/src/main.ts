@@ -1,8 +1,6 @@
-import { NestFactory } from '@nestjs/core'
-import { AppModule } from './app.module'
+import { install as installSourceMapSupport } from 'source-map-support'
+import bootstrap from 'bootstrap'
 
-async function bootstrap() {
-  const app = await NestFactory.create(AppModule)
-  await app.listen(3000)
-}
+installSourceMapSupport()
+
 bootstrap()
