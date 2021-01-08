@@ -11,7 +11,7 @@
   "scripts": {
     "clean": "rm -rf {packages/*/,}node_modules yarn.lock",
     "reinstall": "yarn clean && yarn install",
-    "build:vercel": "sh ./scripts/build.sh && vercel",
+    "build": "sh ./scripts/build.sh",
     "build:web": "yarn workspace web build",
     "build:server": "yarn workspace server build"
   },
