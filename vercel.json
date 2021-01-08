@@ -2,8 +2,5 @@
   "version": 2,
   "builds": [{ "src": "packages/server/dist/main.js", "use": "@now/node" }],
   "routes": [{ "src": "/(.*)", "dest": "packages/server/dist/main.js" }],
-  "github": {
-    "enabled": false,
-    "autoJobCancelation": true
-  }
+  "github": { "enabled": false }
 }
