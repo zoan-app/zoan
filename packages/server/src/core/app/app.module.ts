@@ -21,7 +21,7 @@ const appModules = [UsersModule]
       useFindAndModify: true,
     }),
     GraphQLModule.forRoot({
-      autoSchemaFile: 'schema.gql',
+      autoSchemaFile: config.nodeEnv === 'production' ? true : 'schema.gql',
       introspection: true,
     }),
 

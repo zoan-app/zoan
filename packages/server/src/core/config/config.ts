@@ -5,6 +5,7 @@ const nodeEnv = process.env.NODE_ENV || 'development'
 const env = loadEnv(nodeEnv)
 
 const config = {
+  nodeEnv,
   PORT: normalizePort(),
   MONGODB_URI: env.MONGODB_URI,
 }

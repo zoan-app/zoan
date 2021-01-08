@@ -7,8 +7,10 @@
   ],
   "typescript.tsdk": "node_modules/typescript/lib",
   "cSpell.words": [
+    "Cancelation",
     "nestjs",
     "typegoose",
+    "vercel",
     "virtuals"
   ]
 }

@@ -11,7 +11,7 @@
   "scripts": {
     "clean": "rm -rf {packages/*/,}node_modules yarn.lock",
     "reinstall": "yarn clean && yarn install",
-    "build": "sh ./scripts/build.sh",
+    "build:vercel": "sh ./scripts/build.sh && vercel",
     "build:web": "yarn workspace web build",
     "build:server": "yarn workspace server build"
   },
@@ -21,7 +21,8 @@
     "lint-staged": "10.5.3",
     "prettier": "2.2.1",
     "tslint": "6.1.3",
-    "typescript": "4.1.3"
+    "typescript": "4.1.3",
+    "vercel": "21.0.1"
   },
   "resolutions": {
     "prettier": "2.2.1"
