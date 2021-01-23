@@ -31,7 +31,7 @@
     "dotenv": "8.2.0",
     "graphql": "15.4.0",
     "graphql-tools": "7.0.2",
-    "mongoose": "5.10.4",
+    "mongoose": "5.11.13",
     "nestjs-typegoose": "7.1.38",
     "reflect-metadata": "0.1.13",
     "rimraf": "3.0.2",
