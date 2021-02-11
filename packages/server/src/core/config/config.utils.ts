@@ -1,3 +1,4 @@
+/* eslint-disable no-process-env */
 import { Logger } from 'core/Logger'
 import * as dotenv from 'dotenv'
 
