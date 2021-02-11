@@ -8,7 +8,7 @@ module.exports = {
   },
   plugins: ['@typescript-eslint/eslint-plugin'],
   extends: [
-    'airbnb-typescript',
+    'airbnb-typescript/base',
     'plugin:jest/recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
@@ -29,5 +29,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'class-methods-use-this': 'off',
     'prettier/prettier': 'warn',
+    'no-process-env': 'error',
   },
 }

@@ -1,3 +1,4 @@
+/* eslint-disable no-process-env */
 import { loadEnv, normalizePort } from './config.utils'
 
 const nodeEnv = process.env.NODE_ENV || 'development'
