@@ -1523,7 +1523,7 @@
     "@graphql-tools/utils" "^7.0.0"
     tslib "~2.0.1"
 
-"@graphql-tools/links@^7.0.0":
+"@graphql-tools/links@^7.0.4":
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/@graphql-tools/links/-/links-7.0.4.tgz#1f6e9c1d679d5b9e211bf41c8afa9e24b6561bd1"
   integrity sha512-u3yeaDwLYISwbMWIpPq0Wgk1TItw+OYMqbP/uC/J1OgLTEOHgOy8UhptzOin5HqpcnD0KMf4cbMRQml0LgST9w==
@@ -1569,14 +1569,16 @@
     "@graphql-tools/utils" "^7.0.0"
     tslib "~2.1.0"
 
-"@graphql-tools/mock@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/mock/-/mock-7.0.0.tgz#b43858f47fedfbf7d8bbbf7d33e6acb64b8b7da7"
-  integrity sha512-ShO8D9HudgnhqoWeKb3iejGtPV8elFqSO1U0O70g3FH3W/CBW2abXfuyodBUevXVGIjyqzfkNzVtpIE0qiOVVQ==
+"@graphql-tools/mock@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/mock/-/mock-8.0.0.tgz#2f8b6ace8895512dcfe40a07ed18149e26ec7826"
+  integrity sha512-JONHkCKd8QpWxQ9e4GQWk88UHr128H5wMl4PlFbQbz+it3ue7BTco327BeV6KAq8HaMVbd/gx1HjX3DpX6OmsQ==
   dependencies:
     "@graphql-tools/schema" "^7.0.0"
     "@graphql-tools/utils" "^7.0.0"
-    tslib "~2.0.1"
+    fast-json-stable-stringify "^2.1.0"
+    ts-is-defined "^1.0.0"
+    tslib "~2.1.0"
 
 "@graphql-tools/module-loader@^6.2.5":
   version "6.2.5"
@@ -1627,7 +1629,7 @@
     "@graphql-tools/utils" "^7.1.2"
     tslib "~2.1.0"
 
-"@graphql-tools/stitch@^7.0.1":
+"@graphql-tools/stitch@^7.3.0":
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/@graphql-tools/stitch/-/stitch-7.3.0.tgz#09cd4eaed2c2780e0e8e9c1922162ad4ca1c6813"
   integrity sha512-D9rlb7zYL4kVe1XRAhkg3gE840AawuuNOYCyHWnd76VuSz7WOigGLpyR6btdlrj3noJf8BKuGbwtmyWEn7cf+g==
@@ -7875,36 +7877,36 @@ graphql-tag@^2.12.0:
   dependencies:
     tslib "^1.14.1"
 
-graphql-tools@7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-7.0.2.tgz#ea8a92f1daa1429c6850497bcf8f83ac64fc0fa5"
-  integrity sha512-dEthp7uFH/Myrk1x9d/fHF4n0yn8s0ON496pd1VwZ2D7cGws4DnPzo6UciuWhCr+fyq73LzkqPoYtWgKmXjm4A==
+graphql-tools@7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-7.0.3.tgz#aa0e0a3933f2b164e68b2a3842985eab60aa39af"
+  integrity sha512-1ZBXsp33GdFwVhj6D3CB7YYjzjqAFLKHDWGlxX9nzkVSgIiGbNyYgao3M/GG4F6b/sPO+8TAFf/8jYE7RLiqQA==
   dependencies:
     "@graphql-tools/batch-delegate" "^7.0.0"
     "@graphql-tools/batch-execute" "^7.0.0"
     "@graphql-tools/code-file-loader" "^6.2.5"
-    "@graphql-tools/delegate" "^7.0.1"
+    "@graphql-tools/delegate" "^7.0.10"
     "@graphql-tools/git-loader" "^6.2.5"
     "@graphql-tools/github-loader" "^6.2.5"
     "@graphql-tools/graphql-file-loader" "^6.2.5"
     "@graphql-tools/graphql-tag-pluck" "^6.2.6"
     "@graphql-tools/import" "^6.2.4"
     "@graphql-tools/json-file-loader" "^6.2.5"
-    "@graphql-tools/links" "^7.0.0"
+    "@graphql-tools/links" "^7.0.4"
     "@graphql-tools/load" "^6.2.5"
     "@graphql-tools/load-files" "^6.2.4"
     "@graphql-tools/merge" "^6.2.5"
-    "@graphql-tools/mock" "^7.0.0"
+    "@graphql-tools/mock" "^8.0.0"
     "@graphql-tools/module-loader" "^6.2.5"
     "@graphql-tools/optimize" "1.0.1"
     "@graphql-tools/relay-operation-optimizer" "^6.2.5"
     "@graphql-tools/resolvers-composition" "^6.2.5"
     "@graphql-tools/schema" "^7.0.0"
-    "@graphql-tools/stitch" "^7.0.1"
+    "@graphql-tools/stitch" "^7.3.0"
     "@graphql-tools/url-loader" "^6.3.2"
     "@graphql-tools/utils" "^7.0.1"
     "@graphql-tools/wrap" "^7.0.0"
-    tslib "~2.0.1"
+    tslib "~2.1.0"
 
 graphql-tools@^4.0.0:
   version "4.0.8"
@@ -14494,6 +14496,13 @@ ts-invariant@^0.6.0:
     "@ungap/global-this" "^0.4.2"
     tslib "^1.9.3"
 
+ts-is-defined@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ts-is-defined/-/ts-is-defined-1.0.0.tgz#8f106af8c43ba6200beaac0a8013dc3745451ae7"
+  integrity sha512-HmzqN8xWETXnfpXyUqMf5nvcZszn9aTNjxVIJ6R2aNNg14oLo3PCi9IRhsv+vg2C7TI90M7PyjBOrg4f6/nupA==
+  dependencies:
+    ts-tiny-invariant "0.0.3"
+
 ts-jest@26.4.3:
   version "26.4.3"
   resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-26.4.3.tgz#d153a616033e7ec8544b97ddbe2638cbe38d53db"
@@ -14558,6 +14567,11 @@ ts-pnp@1.2.0, ts-pnp@^1.1.6:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==
+
+ts-tiny-invariant@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/ts-tiny-invariant/-/ts-tiny-invariant-0.0.3.tgz#6f51c153c285a7839bb59b1e5a2721fcb25a5e39"
+  integrity sha512-EiaBUsUta7PPzVKpvZurcSDgaSkymxwiUc2rhX6Wu30bws2maipT6ihbEY072dU9lz6/FoFWEc6psXdlo0xqtg==
 
 tsconfig-paths-webpack-plugin@3.3.0:
   version "3.3.0"
