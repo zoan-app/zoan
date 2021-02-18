@@ -2963,10 +2963,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.25.tgz#15967a7b577ff81383f9b888aa6705d43fbbae93"
   integrity sha512-EPpXLOVqDvisVxtlbvzfyqSsFeQxltFbluZNRndIb8tr9KiBnYNLzrc1N3pyKUCww2RNrfHDViqDWWE1LCJQtQ==
 
-"@types/node@12.20.1":
-  version "12.20.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.1.tgz#63d36c10e162666f0107f247cdca76542c3c7472"
-  integrity sha512-tCkE96/ZTO+cWbln2xfyvd6ngHLanvVlJ3e5BeirJ3BYI5GbAyubIrmV4JjjugDly5D9fHjOL5MNsqsCnqwW6g==
+"@types/node@12.20.2":
+  version "12.20.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.2.tgz#9a57db42ebde16f006ddaa03d48eb253c9777b9f"
+  integrity sha512-djoyN0pvTje9Lpu25ZwZwlLQICPiuv42omiydLhl7om+og1RhQboGmar12KaKls8soTUQ893TuWCrlyt8B1pVg==
 
 "@types/node@14.14.28":
   version "14.14.28"
