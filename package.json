@@ -16,7 +16,7 @@
     "build:server": "yarn workspace server build"
   },
   "devDependencies": {
-    "concurrently": "6.2.2",
+    "concurrently": "6.3.0",
     "husky": "7.0.2",
     "lint-staged": "11.1.2",
     "prettier": "2.4.1",
