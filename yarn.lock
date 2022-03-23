@@ -3605,10 +3605,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
-"@typegoose/typegoose@9.7.0":
-  version "9.7.0"
-  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-9.7.0.tgz#43b22fb3bed0016405448d13adc3173d096dc251"
-  integrity sha512-x5z0WDkyt4AF5EZJH5LpI/IJcCkD7c2AmP0V15400BVqBY2FSGWls8C8pn8FIF+YaqED3LItHcHkDHGc3WklJg==
+"@typegoose/typegoose@9.7.1":
+  version "9.7.1"
+  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-9.7.1.tgz#790bc64623670c143f323789fa75bb3877d70f88"
+  integrity sha512-4KaM/YvoqDTweAlfTryLnHhw608R4a23dZqILbFjskQVZ47hXpo9xAcNdxVBJFwb+nLXg303gQyVMET0ArC5Ng==
   dependencies:
     lodash "^4.17.20"
     loglevel "^1.8.0"
