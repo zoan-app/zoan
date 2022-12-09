@@ -29,7 +29,7 @@
     "@typegoose/typegoose": "9.13.2",
     "apollo-server-express": "3.11.1",
     "apollo-server-fastify": "3.11.1",
-    "class-validator": "0.13.2",
+    "class-validator": "0.14.0",
     "dotenv": "16.0.3",
     "fastify-static": "4.7.0",
     "graphql": "16.6.0",
