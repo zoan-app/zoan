@@ -25,7 +25,7 @@
     "@nestjs/graphql": "10.2.0",
     "@nestjs/platform-express": "9.3.7",
     "@nestjs/platform-fastify": "9.3.7",
-    "@nestjs/serve-static": "3.0.0",
+    "@nestjs/serve-static": "3.0.1",
     "@typegoose/typegoose": "10.1.1",
     "apollo-server-express": "3.11.1",
     "apollo-server-fastify": "3.11.1",
