@@ -3863,10 +3863,10 @@
     path-to-regexp "^6.1.0"
     reusify "^1.0.4"
 
-"@fastify/static@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-5.0.0.tgz#7aa2527148da067f2a550ac4a585c0f6f0a188ec"
-  integrity sha512-GGltJkO0idXa7yCZ0PfdTZ6qokWDX/vigCvmRpjOU2A3jc93c9p+oHDvHmwHK60hwWoBEGqHjGofVyn3H1CjZg==
+"@fastify/static@5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-5.0.2.tgz#46cee887393b422f4b10a46a14e970a64dd086d4"
+  integrity sha512-HvyXZ5a7hUHoSBRq9jKUuKIUCkHMkCDcmiAeEmixXlGOx8pEWx3NYOIaiivcjWa6/NLvfdUT+t/jzfVQ2PA7Gw==
   dependencies:
     content-disposition "^0.5.3"
     encoding-negotiator "^2.0.1"
