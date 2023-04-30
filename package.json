@@ -21,7 +21,7 @@
     "lint-staged": "13.2.2",
     "prettier": "2.8.8",
     "typescript": "5.0.4",
-    "vercel": "29.0.1"
+    "vercel": "29.0.2"
   },
   "resolutions": {
     "prettier": "2.8.8"
