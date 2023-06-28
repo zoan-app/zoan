@@ -5008,10 +5008,10 @@
     path-to-regexp "3.2.0"
     tslib "2.5.3"
 
-"@nestjs/graphql@12.0.4":
-  version "12.0.4"
-  resolved "https://registry.yarnpkg.com/@nestjs/graphql/-/graphql-12.0.4.tgz#e80e638d7a83887f732228326467b7db900e2962"
-  integrity sha512-t3uG3XvPYHuYS8S0E6xhqvhibHmz6X7y0h3c98wCZqlNAmDNEeGlZA+ujxzz1hm+sjJL3HJOfdrs1S9UvP69eg==
+"@nestjs/graphql@12.0.5":
+  version "12.0.5"
+  resolved "https://registry.yarnpkg.com/@nestjs/graphql/-/graphql-12.0.5.tgz#19a05e2c1244253f2904cb0566f221c94ab8e499"
+  integrity sha512-6NPvqRxDyv37VNkqLU2B7m8813UmL6iYOZ7yjr2NJ108V/K2jvmOAcGwmdD/6Tny4JC3cmc39V5FmVSru1iVfA==
   dependencies:
     "@graphql-tools/merge" "9.0.0"
     "@graphql-tools/schema" "10.0.0"
