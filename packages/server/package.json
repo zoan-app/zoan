@@ -43,7 +43,7 @@
     "type-graphql": "1.1.1"
   },
   "devDependencies": {
-    "@nestjs/cli": "10.1.4",
+    "@nestjs/cli": "10.1.7",
     "@nestjs/schematics": "10.0.1",
     "@nestjs/testing": "10.0.5",
     "@types/dotenv": "8.2.0",
