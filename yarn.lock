@@ -5655,16 +5655,16 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
-"@typegoose/typegoose@11.3.0":
-  version "11.3.0"
-  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-11.3.0.tgz#a04ed8bdca35cf511241ad04f2694343c65fbb89"
-  integrity sha512-saBGFAYYfGqEIKdbai/qE29te0pbPoF1NJPIYd7Lwv1GAyMJusuwqMXgJuix2G25/8vZZz89Yimomwlwwlmy7w==
+"@typegoose/typegoose@11.4.0":
+  version "11.4.0"
+  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-11.4.0.tgz#8339dba56216aeb78b38c9b87dfc75a03205eb61"
+  integrity sha512-MQE1go8wsTJCZ2PnGaOOfBsZ7e0gFVhZGZLY8g5vIs11oesNMLWpKaDxLrzrljqtMISRcBOn+iXDalo30Ibnxg==
   dependencies:
     lodash "^4.17.20"
     loglevel "^1.8.1"
     reflect-metadata "^0.1.13"
-    semver "^7.5.2"
-    tslib "^2.5.3"
+    semver "^7.5.4"
+    tslib "^2.6.0"
 
 "@types/acorn@^4.0.0":
   version "4.0.6"
@@ -17825,13 +17825,6 @@ semver@^7.5.0:
   dependencies:
     lru-cache "^6.0.0"
 
-semver@^7.5.2:
-  version "7.5.2"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.2.tgz#5b851e66d1be07c1cdaf37dfc856f543325a2beb"
-  integrity sha512-SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==
-  dependencies:
-    lru-cache "^6.0.0"
-
 semver@^7.5.3:
   version "7.5.3"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.3.tgz#161ce8c2c6b4b3bdca6caadc9fa3317a4c4fe88e"
@@ -19219,11 +19212,6 @@ tslib@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
-
-tslib@^2.5.3:
-  version "2.5.3"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.5.3.tgz#24944ba2d990940e6e982c4bea147aba80209913"
-  integrity sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==
 
 tslib@~2.0.1:
   version "2.0.3"
