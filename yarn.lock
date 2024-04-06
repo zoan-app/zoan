@@ -4340,14 +4340,14 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
-"@typegoose/typegoose@12.2.0":
-  version "12.2.0"
-  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-12.2.0.tgz#c1aeba14f80ae94069000a9a2db0128c1e35b8fe"
-  integrity sha512-6gC5aIfccXw4IZOMe3oSef63M6leDyMvuycfwzQdVi8M9C5UnpaV8tO1xzmxiOxUHDST0GdDW/aWCCX6MtOQxg==
+"@typegoose/typegoose@12.3.0":
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-12.3.0.tgz#a5de53d6f25110215897cd30ac95275457dee8cb"
+  integrity sha512-y5nLreUPumLAFZnPMnIR4JeceiKQVnWxw/QT9VRbe8Zj+oUxszBekqty8HJjYhMgZwJn3Ue+idrAsX6A3fHm4w==
   dependencies:
     lodash "^4.17.20"
     loglevel "^1.9.1"
-    reflect-metadata "^0.2.1"
+    reflect-metadata "^0.2.2"
     semver "^7.6.0"
     tslib "^2.6.2"
 
@@ -14831,7 +14831,7 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-reflect-metadata@0.2.2:
+reflect-metadata@0.2.2, reflect-metadata@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.2.2.tgz#400c845b6cba87a21f2c65c4aeb158f4fa4d9c5b"
   integrity sha512-urBwgfrvVP/eAyXx4hluJivBKzuEbSQs9rKWCrCkbSxNv8mxPcUZKeuoF3Uy4mJl3Lwprp6yy5/39VWigZ4K6Q==
@@ -14840,11 +14840,6 @@ reflect-metadata@^0.1.13:
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
   integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
-
-reflect-metadata@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.2.1.tgz#8d5513c0f5ef2b4b9c3865287f3c0940c1f67f74"
-  integrity sha512-i5lLI6iw9AU3Uu4szRNPPEkomnkjRTaVt9hy/bn5g/oSzekBSMeLZblcjP74AW0vBabqERLLIrz+gR8QYR54Tw==
 
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
