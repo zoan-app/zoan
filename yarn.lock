@@ -17076,10 +17076,10 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@37.0.0:
-  version "37.0.0"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-37.0.0.tgz#6b9bc2f66dd5a57ee53d74e7d2d73c2b48cc209f"
-  integrity sha512-V042lLi92qoA2RJ6WSqrUJDEXPA7UB2HNwjyrbBo6OlhNTUInUywjjQB14KMP9H+6dXlPAbl5HnTWK11O4kLjw==
+vercel@37.1.0:
+  version "37.1.0"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-37.1.0.tgz#6dd795f19aa96875dc578fcc5d26fd5e58dc5314"
+  integrity sha512-FzXjzbwRBUVD7lBxdvX5x4u7RhNFp+gEHhmvEHOG/t2CHrFadCd7hLfItAccQy3r3BuPvA+XHhuVLeYqJTfoSA==
   dependencies:
     "@vercel/build-utils" "8.3.6"
     "@vercel/fun" "1.1.0"
