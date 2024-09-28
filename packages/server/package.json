@@ -26,7 +26,7 @@
     "@nestjs/platform-express": "10.4.4",
     "@nestjs/platform-fastify": "10.4.4",
     "@nestjs/serve-static": "4.0.2",
-    "@typegoose/typegoose": "12.7.0",
+    "@typegoose/typegoose": "12.8.0",
     "@apollo/server": "4.11.0",
     "apollo-server-fastify": "3.13.0",
     "class-validator": "0.14.1",
