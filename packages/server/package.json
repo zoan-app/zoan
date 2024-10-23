@@ -46,7 +46,7 @@
     "@nestjs/cli": "10.4.5",
     "@nestjs/schematics": "10.2.2",
     "@nestjs/testing": "10.4.5",
-    "@types/dotenv": "8.2.0",
+    "@types/dotenv": "8.2.3",
     "@types/express": "5.0.0",
     "@types/jest": "29.5.13",
     "@types/mongoose": "5.11.97",
