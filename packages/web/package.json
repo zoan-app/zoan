@@ -40,7 +40,7 @@
     ]
   },
   "devDependencies": {
-    "@types/color": "3.0.6",
+    "@types/color": "4.2.0",
     "@typescript-eslint/eslint-plugin": "8.11.0",
     "@typescript-eslint/parser": "8.11.0",
     "eslint-config-airbnb": "19.0.4",
