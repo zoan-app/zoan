@@ -176,15 +176,15 @@
     "@apollo/utils.keyvaluecache" "^2.1.0"
     "@apollo/utils.logger" "^2.0.0"
 
-"@apollo/server@4.11.2":
-  version "4.11.2"
-  resolved "https://registry.yarnpkg.com/@apollo/server/-/server-4.11.2.tgz#7e4a5c76456aded36f45f2d87cddd3d8d7960c27"
-  integrity sha512-WUTHY7DDek8xAMn4Woa9Bl8duQUDzRYQkosX/d1DtCsBWESZyApR7ndnI5d6+W4KSTtqBHhJFkusEI7CWuIJXg==
+"@apollo/server@4.11.3":
+  version "4.11.3"
+  resolved "https://registry.yarnpkg.com/@apollo/server/-/server-4.11.3.tgz#b30a89fff3b99867c792210e959576e643c48208"
+  integrity sha512-mW8idE2q0/BN14mimfJU5DAnoPHZRrAWgwsVLBEdACds+mxapIYxIbI6AH4AsOpxfrpvHts3PCYDbopy1XPW1g==
   dependencies:
     "@apollo/cache-control-types" "^1.0.3"
     "@apollo/server-gateway-interface" "^1.1.1"
     "@apollo/usage-reporting-protobuf" "^4.1.1"
-    "@apollo/utils.createhash" "^2.0.0"
+    "@apollo/utils.createhash" "^2.0.2"
     "@apollo/utils.fetcher" "^2.0.0"
     "@apollo/utils.isnodelike" "^2.0.0"
     "@apollo/utils.keyvaluecache" "^2.1.0"
@@ -220,12 +220,12 @@
   dependencies:
     "@apollo/protobufjs" "1.2.7"
 
-"@apollo/utils.createhash@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@apollo/utils.createhash/-/utils.createhash-2.0.0.tgz#5063a5fb1405ce89a76bb412997e035d98947c9d"
-  integrity sha512-9GhGGD3J0HJF/VC+odwYpKi3Cg1NWrsO8GQvyGwDS5v/78I3154Hn8s4tpW+nqoaQ/lAvxdQQr3HM1b5HLM6Ww==
+"@apollo/utils.createhash@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@apollo/utils.createhash/-/utils.createhash-2.0.2.tgz#838767c83714354ab36892196b209e45d29745e6"
+  integrity sha512-UkS3xqnVFLZ3JFpEmU/2cM2iKJotQXMoSTgxXsfQgXLC5gR1WaepoXagmYnPSA7Q/2cmnyTYK5OgAgoC4RULPg==
   dependencies:
-    "@apollo/utils.isnodelike" "^2.0.0"
+    "@apollo/utils.isnodelike" "^2.0.1"
     sha.js "^2.4.11"
 
 "@apollo/utils.dropunuseddefinitions@^1.1.0":
@@ -247,6 +247,11 @@
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@apollo/utils.isnodelike/-/utils.isnodelike-2.0.0.tgz#549653f66ed58e07497a6d0a31c6acaa32c8746d"
   integrity sha512-77CiAM2qDXn0haQYrgX0UgrboQykb+bOHaz5p3KKItMwUZ/EFphzuB2vqHvubneIc9dxJcTx2L7MFDswRw/JAQ==
+
+"@apollo/utils.isnodelike@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@apollo/utils.isnodelike/-/utils.isnodelike-2.0.1.tgz#08a7e50f08d2031122efa25af089d1c6ee609f31"
+  integrity sha512-w41XyepR+jBEuVpoRM715N2ZD0xMD413UiJx8w5xnAZD2ZkSJnMJBoIzauK83kJpSgNuR6ywbV29jG9NmxjK0Q==
 
 "@apollo/utils.keyvaluecache@^1.0.1":
   version "1.0.1"
