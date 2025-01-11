@@ -31,7 +31,7 @@
     "apollo-server-fastify": "3.13.0",
     "class-validator": "0.14.1",
     "dotenv": "16.4.7",
-    "@fastify/static": "8.0.3",
+    "@fastify/static": "8.0.4",
     "graphql": "16.10.0",
     "graphql-tools": "9.0.11",
     "mongoose": "5.10.18",
