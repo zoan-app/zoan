@@ -31,10 +31,10 @@
     rxjs "7.8.1"
     source-map "0.7.4"
 
-"@angular-devkit/core@19.1.2":
-  version "19.1.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-19.1.2.tgz#0d2de34df90dbf69f27edbf73e8f50af1377c0e0"
-  integrity sha512-sCYu96C7ToeLGi+ggs2+TxOt1/5eC6WZe/SR7cLpf9rv+gi3ijbH2w+JP6aR4Ne12EL6WGkes42rfT5fL+Z4Gg==
+"@angular-devkit/core@19.1.3":
+  version "19.1.3"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-19.1.3.tgz#79c3d6ece36ad2e5378e58ff79fe38c00c870fc5"
+  integrity sha512-of/TKfJ/vL+/qvr4PbDTtqbFJGFHPfu6bEJrIZsLMYA+Mej8SyTx3kDm4LLnKQBtWVYDqkrxvcpOb4+NmHNLfA==
   dependencies:
     ajv "8.17.1"
     ajv-formats "3.0.1"
@@ -43,13 +43,13 @@
     rxjs "7.8.1"
     source-map "0.7.4"
 
-"@angular-devkit/schematics-cli@19.1.2":
-  version "19.1.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics-cli/-/schematics-cli-19.1.2.tgz#ddb91b78b20be27d6fa9261882ba38a3e979f7ff"
-  integrity sha512-LMaZXLM5RD+W4ArvKSDrzVPtxXjlKm8Rzf9fs4rDBzEJo3JUy1MRXImhn08Nm4kBL0J/mllZCnXAifWWAygyYQ==
+"@angular-devkit/schematics-cli@19.1.3":
+  version "19.1.3"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics-cli/-/schematics-cli-19.1.3.tgz#14a158edfda88c72a4f88c85bb3337221d0ad217"
+  integrity sha512-levMPch+Mni/cEVd/b9RUzasxWqlafBVjgrofbaSlxgZmr4pRJ/tihzrNnygNUaXoBqhTtXU5aFxTGbJhS35eA==
   dependencies:
-    "@angular-devkit/core" "19.1.2"
-    "@angular-devkit/schematics" "19.1.2"
+    "@angular-devkit/core" "19.1.3"
+    "@angular-devkit/schematics" "19.1.3"
     "@inquirer/prompts" "7.2.1"
     ansi-colors "4.1.3"
     symbol-observable "4.0.0"
@@ -66,12 +66,12 @@
     ora "5.4.1"
     rxjs "7.8.1"
 
-"@angular-devkit/schematics@19.1.2":
-  version "19.1.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-19.1.2.tgz#c1876e69573e4ce722fab7186f0e911d7350d572"
-  integrity sha512-+eeDvbTj37Yczs3S1Hy42Nr1OG5BHORDPdY+bLIP383aTFjfTtlMIya46iNvMCYjinvnQkC4GcKdsa4ews3c9A==
+"@angular-devkit/schematics@19.1.3":
+  version "19.1.3"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-19.1.3.tgz#597eb3da85c9f2c1e6ae13264ad8f36673a093a7"
+  integrity sha512-DfN45eJQtfXXeQwjb7vDqSJ+8e6BW3rXUB2i6IC2CbOYrLWhMBgfv3/uTm++IbCFW2zX3Yk3yqq3d4yua2no7w==
   dependencies:
-    "@angular-devkit/core" "19.1.2"
+    "@angular-devkit/core" "19.1.3"
     jsonc-parser "3.3.1"
     magic-string "0.30.17"
     ora "5.4.1"
@@ -3904,14 +3904,14 @@
     prop-types "^15.7.2"
     react-is "^17.0.2"
 
-"@nestjs/cli@11.0.1":
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/@nestjs/cli/-/cli-11.0.1.tgz#e4848f03b27b0312e4cb6e6fafb1e03950c2a838"
-  integrity sha512-W1pS3mKBb5L2T0Sk9/bAFTS3XctcaAn9q1veXCIKSaGwGk7pjqEa1AwzX8/Lq10NJgjJno/Lhw1kZrX32VImFA==
+"@nestjs/cli@11.0.2":
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/@nestjs/cli/-/cli-11.0.2.tgz#dff9b0bda813b141c1f4c19fdc9a0138d66eeacc"
+  integrity sha512-y1dKk+Q94vnWhJe8eoz1Qs5WIYHSgO0xZttsFnDbYW1A6CBUVanc4RocbiyhwC/GjWPO4D5JmTXjW5mRH6wprA==
   dependencies:
-    "@angular-devkit/core" "19.1.2"
-    "@angular-devkit/schematics" "19.1.2"
-    "@angular-devkit/schematics-cli" "19.1.2"
+    "@angular-devkit/core" "19.1.3"
+    "@angular-devkit/schematics" "19.1.3"
+    "@angular-devkit/schematics-cli" "19.1.3"
     "@inquirer/prompts" "7.2.3"
     "@nestjs/schematics" "11.0.0"
     ansis "3.9.0"
@@ -3929,19 +3929,19 @@
     webpack "5.97.1"
     webpack-node-externals "3.0.0"
 
-"@nestjs/common@11.0.3":
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-11.0.3.tgz#0deb7aec8087f088b78cc1ef102b81a4ad097a33"
-  integrity sha512-fTkJWQ20+jvPKfrv3A+T3wsPwwYSJyoJ+pcBzyKtv5fCpK/yX/rJalFUIpw1CDmarfqIaMX9SdkplNyxtvH6RA==
+"@nestjs/common@11.0.4":
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-11.0.4.tgz#c5619e3be9f5a9dfe9e3453ca5f5b15576917b27"
+  integrity sha512-KVNOFe445VZeoegSPWmAytDO/VwvrKfUNjS3IivMYsUaM0F54r/C5oyvBF3rmQlTeEsIUfpaHEr+zFkYnt3ZKA==
   dependencies:
     uid "2.0.2"
     iterare "1.2.1"
     tslib "2.8.1"
 
-"@nestjs/core@11.0.3":
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-11.0.3.tgz#a3e836f725242b788bb48454c34d05b9658c1557"
-  integrity sha512-6UoVHpwa23HJxMNtuTXQCiqx/NHTG3lRBRgnZ8EDHTjgaNnR7P+xBS68zN3gLH7rBIrhhQ5Q1hVs7WswRxrw7Q==
+"@nestjs/core@11.0.4":
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-11.0.4.tgz#297c29a73684c8b1faac92687e0fe081b1adb473"
+  integrity sha512-kDhafpOQw5isbw4yQ/F/wb2wIi3VqepntBHdyLc8Wgbg/JMZ1VCjekSM0e98wkZpguZgTG1jXLYZutqF/H4hqg==
   dependencies:
     uid "2.0.2"
     "@nuxt/opencollective" "0.4.1"
@@ -3974,10 +3974,10 @@
   resolved "https://registry.yarnpkg.com/@nestjs/mapped-types/-/mapped-types-2.1.0.tgz#b9b536b7c3571567aa1d0223db8baa1a51505a19"
   integrity sha512-W+n+rM69XsFdwORF11UqJahn4J3xi4g/ZEOlJNL6KoW5ygWSmBB2p0S2BZ4FQeS/NDH72e6xIcu35SfJnE8bXw==
 
-"@nestjs/platform-express@11.0.3":
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-11.0.3.tgz#939e84e340e27e0a55021f7c19b6f88a9103ba7c"
-  integrity sha512-KFzxOjd7FYOBR3AtUnhbTHi3LdDpMT3sWSNT/DqTD6t/dEfk/FtgCE7ZtNnIuPY1KTvP68BW40VVcwauyvRJwg==
+"@nestjs/platform-express@11.0.4":
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-11.0.4.tgz#0acfc88c42f1078cdeaecf5ca580f5a1260bfa33"
+  integrity sha512-HqdTJZViPXNrJGp5b4TdTAmCoHk5UdR67FDEYph8cw+FNhdSbvkXcXErpLN3Hh3/WzLrvKDaWQ2gDZS35vKbmw==
   dependencies:
     cors "2.8.5"
     express "5.0.1"
@@ -3985,10 +3985,10 @@
     path-to-regexp "8.2.0"
     tslib "2.8.1"
 
-"@nestjs/platform-fastify@11.0.3":
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/@nestjs/platform-fastify/-/platform-fastify-11.0.3.tgz#92d530d973b1809f96f34531960caa79cc013cd6"
-  integrity sha512-x7rIw7bScGOyKi3cWcFTi08ftW8RgJIeqgs8CC2qTi19p25lvEFhVusL+H082dKRRVsaDflaGgoDSUpWDA1wOA==
+"@nestjs/platform-fastify@11.0.4":
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/platform-fastify/-/platform-fastify-11.0.4.tgz#b7dd4747f42db1fbc150aef866a5ee55b26cd30f"
+  integrity sha512-U41ulZYF+VgzGtxbS28vBriAZYVDw/zKJl0FA0PMl9s7TqMvwEzBioBFIlMjRYcwwqSfuM6z+MiQ5znk06B/fg==
   dependencies:
     "@fastify/cors" "10.0.2"
     "@fastify/formbody" "8.0.2"
@@ -4016,10 +4016,10 @@
   dependencies:
     path-to-regexp "8.2.0"
 
-"@nestjs/testing@11.0.3":
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-11.0.3.tgz#932e48edf3afb26a517656959dc39ecb1e4a8ee1"
-  integrity sha512-Md8fZWglj+UQ3WGrA2ivQdgjzn1nSpglLKaWgE5BL7Kyx2uVU3qksclaPjNmidwp2bNr+ZfYHzfJz4L4FO7f7w==
+"@nestjs/testing@11.0.4":
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-11.0.4.tgz#cfd90d20c96e64636cd81b645502cd3f62cb2475"
+  integrity sha512-+ksQXkpaaKJLGeSNBeI2EkXakmfr5mGE2jrdCq3eihVuuNuFJHO1PMgzwyiNcMmrDb1H5o/XLva0Inj5VbE9aA==
   dependencies:
     tslib "2.8.1"
 
