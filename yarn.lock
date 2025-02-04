@@ -5213,10 +5213,10 @@
     semver "6.3.1"
     ts-morph "12.0.0"
 
-"@vercel/remix-builder@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@vercel/remix-builder/-/remix-builder-5.2.0.tgz#d4b152c35b1832ef1269111b24c8dff5edf90f6a"
-  integrity sha512-VjItqZL+nX/tKhOp+sCG2I930ZAx23tNx14MTpB9PACHS7RL6wJae38OKSSanX56esJffEgyS0Ln1VswVyOrHw==
+"@vercel/remix-builder@5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@vercel/remix-builder/-/remix-builder-5.2.1.tgz#8ca6e68f009570e9db1fd1e21ff8ede6fa85d687"
+  integrity sha512-5wULMpCKMYTdQeYfAV+fwiGDAG+zMFalwZaLFItWxPCq9OB2Ds02mca6Xz3M4QhTcGlN7l7ihmVFMOu0ZWTPdA==
   dependencies:
     "@vercel/error-utils" "2.0.3"
     "@vercel/nft" "0.27.10"
@@ -17522,10 +17522,10 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@40.1.0:
-  version "40.1.0"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-40.1.0.tgz#e640d938a6b43adfbef15e6774e7753e69432459"
-  integrity sha512-p8FG2zjrCtrhiW8GsJycviMIpKgz/q/rVUFNbucLbWhxfkKp2igF2B//EKsl7FIgmrDK2JW5xpKXU+39tDwJug==
+vercel@41.0.0:
+  version "41.0.0"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-41.0.0.tgz#ed8c884204852ccb22756c774ccad378f9972fe6"
+  integrity sha512-yx8d93+8TO0GO+8PMZ5RG+qZ3nSx1etu6P+Uv74o9gb2JOYlRHki3nyNH+2xNdd6a58UkH1feeoMKUvfhSOvNw==
   dependencies:
     "@vercel/build-utils" "9.2.0"
     "@vercel/fun" "1.1.2"
@@ -17535,7 +17535,7 @@ vercel@40.1.0:
     "@vercel/node" "5.1.0"
     "@vercel/python" "4.7.1"
     "@vercel/redwood" "2.2.0"
-    "@vercel/remix-builder" "5.2.0"
+    "@vercel/remix-builder" "5.2.1"
     "@vercel/ruby" "2.2.0"
     "@vercel/static-build" "2.6.0"
     chokidar "4.0.0"
