@@ -5273,10 +5273,10 @@
     "@vercel/static-config" "3.0.0"
     ts-morph "12.0.0"
 
-"@vercel/next@4.7.4":
-  version "4.7.4"
-  resolved "https://registry.yarnpkg.com/@vercel/next/-/next-4.7.4.tgz#e731771f2f733fbd8485702e5a262521cae5b8bc"
-  integrity sha512-8CzSxN4rOjABoF+6KBEpxlWnTaXpBNDiuNGRfJ3LWBMj/mtlnsucHpd/8Y7ReS9QheICWf9McC7gqA2Alrpmwg==
+"@vercel/next@4.7.6":
+  version "4.7.6"
+  resolved "https://registry.yarnpkg.com/@vercel/next/-/next-4.7.6.tgz#ba87131fefa2b1fa35fc6ec21ebb9640be09e1ab"
+  integrity sha512-rrujYVMzt1j43n6CSLyVgmt7wdi7Z/h8baup3XsrL74T99LWWj1UdMmZKUC79UXsDRZVom6t90Clhrrn+fB7AQ==
   dependencies:
     "@vercel/nft" "0.27.10"
 
@@ -5325,10 +5325,10 @@
     typescript "4.9.5"
     undici "5.28.4"
 
-"@vercel/python@4.7.1":
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-4.7.1.tgz#182628b9891bef253567ea169031e247dc53e663"
-  integrity sha512-H4g/5e8unII4oQ+KN5IUvTZSzHmj+lLYDkAK15QGYgAxBtE/mHUvEZpPPo7DPUDIyfq8ybWB1bmk7H5kEahubQ==
+"@vercel/python@4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-4.7.2.tgz#12d062cddfdfd8a407d73dc938ae34a00d695e1a"
+  integrity sha512-i2QBNMvNxUZQ2e5vLIL7mUkLg5Qkl9nqxUNXCYezdyvk2Ql6xYKjg7tMhpK/uiy094KfZSOECpDbDxkIN0jUSw==
 
 "@vercel/redwood@2.3.0":
   version "2.3.0"
@@ -17720,18 +17720,18 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@41.4.1:
-  version "41.4.1"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-41.4.1.tgz#22b4b7d47399767b43aa6a74a5131795e175c70f"
-  integrity sha512-o7zsdAuFls+gMotvzoXFIe6pdsxsWmkdeQx7sAw4qbNgmDe80e0/C8hLEUs3wLO8NRI5E1AlwS2MM8vYs+ljOg==
+vercel@41.5.0:
+  version "41.5.0"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-41.5.0.tgz#3794e6b4f440f8308993e5b5899bac597fcd6c23"
+  integrity sha512-FWewxxoNcKhDOVlBQO+h8CA0xOvMDgTcbx3z59jZmqH3GUaaAxHCwiyy4NAmXiNeHViVeaOqMs4TBDoPi/KTPw==
   dependencies:
     "@vercel/build-utils" "10.5.1"
     "@vercel/fun" "1.1.5"
     "@vercel/go" "3.2.1"
     "@vercel/hydrogen" "1.2.0"
-    "@vercel/next" "4.7.4"
+    "@vercel/next" "4.7.6"
     "@vercel/node" "5.1.14"
-    "@vercel/python" "4.7.1"
+    "@vercel/python" "4.7.2"
     "@vercel/redwood" "2.3.0"
     "@vercel/remix-builder" "5.4.3"
     "@vercel/ruby" "2.2.0"
