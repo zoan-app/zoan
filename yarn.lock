@@ -5328,10 +5328,10 @@
     "@vercel/static-config" "3.0.0"
     ts-morph "12.0.0"
 
-"@vercel/next@4.7.9":
-  version "4.7.9"
-  resolved "https://registry.yarnpkg.com/@vercel/next/-/next-4.7.9.tgz#afc9b5e09adff302ce59a3e186fe0aa8d9480c69"
-  integrity sha512-zwm4IKrtWaBlPKU6isGwRg/+i/Do+QVdnXTRKaDeYnMAI703cysqOr1VE1rWBSJCzmUUOJkeJdXidBaMpGgRaw==
+"@vercel/next@4.7.10":
+  version "4.7.10"
+  resolved "https://registry.yarnpkg.com/@vercel/next/-/next-4.7.10.tgz#a7864418f0c6904ce3185c11d98be22819d79d77"
+  integrity sha512-IC3z3TbFpvaeZirPjk0E6eyB1XQqzEc2kLlN5kF9PPFHgcBL4ktEgnJanCg3RzOnRf2jc169MryD4DIErZ9OuA==
   dependencies:
     "@vercel/nft" "0.27.10"
 
@@ -17850,16 +17850,16 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@41.7.0:
-  version "41.7.0"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-41.7.0.tgz#d3fc13c35d62c6452f272a4f8824f11ff41cc9d3"
-  integrity sha512-71yoAOnzGzIBNTmsX3rfPKD03dSLA1cIu09rwulJDqARctfmJj8t+AmOC5jtpczOj7Z5HGgZMaLIrXrv220lcQ==
+vercel@41.7.2:
+  version "41.7.2"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-41.7.2.tgz#3865a256377307697970b17ae596b881cdb599d8"
+  integrity sha512-XL62xOTXSU2AucAWWNrNaY98M6UQyzPCKMeaTTbAdk42bgcmiL/3GKyKJs0T+li0aFp7w4QPZyB/9+Ll0qRzEw==
   dependencies:
     "@vercel/build-utils" "10.5.1"
     "@vercel/fun" "1.1.5"
     "@vercel/go" "3.2.1"
     "@vercel/hydrogen" "1.2.0"
-    "@vercel/next" "4.7.9"
+    "@vercel/next" "4.7.10"
     "@vercel/node" "5.1.15"
     "@vercel/python" "4.7.2"
     "@vercel/redwood" "2.3.0"
