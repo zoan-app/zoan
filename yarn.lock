@@ -5284,10 +5284,10 @@
   resolved "https://registry.yarnpkg.com/@vercel/error-utils/-/error-utils-2.0.3.tgz#72575bf3a3ff3e67f474364e24e753d113c5b79a"
   integrity sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ==
 
-"@vercel/fun@1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@vercel/fun/-/fun-1.1.5.tgz#6355269353720c41614889d84c01aa545cb261d9"
-  integrity sha512-vRuR7qlsl8CgdeQIhfgLDtbMEuxqltx6JWFahB7Q5VOKMo/sFZV1rCxIHsHsJP4yYY2hoZqlT/EUkfG1tfPicg==
+"@vercel/fun@1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@vercel/fun/-/fun-1.1.6.tgz#f34094d65d1ef1cd80be9771dcacf99d36b0e29a"
+  integrity sha512-xDiM+bD0fSZyzcjsAua3D+guXclvHOSTzr03UcZEQwYzIjwWjLduT7bl2gAaeNIe7fASAIZd0P00clcj0On4rQ==
   dependencies:
     "@tootallnate/once" "2.0.0"
     async-listen "1.2.0"
@@ -5305,7 +5305,6 @@
     tinyexec "0.3.2"
     tree-kill "1.2.2"
     uid-promise "1.0.0"
-    uuid "3.3.2"
     xdg-app-paths "5.1.0"
     yauzl-promise "2.1.3"
 
@@ -5407,10 +5406,10 @@
     semver "6.3.1"
     ts-morph "12.0.0"
 
-"@vercel/remix-builder@5.4.4":
-  version "5.4.4"
-  resolved "https://registry.yarnpkg.com/@vercel/remix-builder/-/remix-builder-5.4.4.tgz#ce39a9715d9ac07e4de57b75dba8a25211e7876b"
-  integrity sha512-ZHQU+lbqP5eOOHOypM+GEZxPsPFF5x/KnwARJWm+i5FMtALxQ0CWKTU7gtzYX6MZVNzWkfL7SLsZMP3ly2BvCw==
+"@vercel/remix-builder@5.4.5":
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/@vercel/remix-builder/-/remix-builder-5.4.5.tgz#f35d888a307298e818c98e661ec9fc30d3fe20a0"
+  integrity sha512-fwUNSnAdMNFP9FSk9ZZwLg2uduqRRFaZYX+7GCsZfoRiJzDoEUM+22rhCP3N2A7Z4m07a+Wg1qCuKTeMijf44g==
   dependencies:
     "@vercel/error-utils" "2.0.3"
     "@vercel/nft" "0.29.2"
@@ -17732,11 +17731,6 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
-  integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
-
 uuid@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
@@ -17795,20 +17789,20 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@41.7.4:
-  version "41.7.4"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-41.7.4.tgz#b6f2c9eaef430c376cb141ec1e146e5f802e7a4c"
-  integrity sha512-hc4NTKqYhpaAKm6UAIOFHteWbxw2wT4szpBRdkkY1a4kNMvlkazPdddB+PphTlalBzgUraeR7/77i/dBELfnUg==
+vercel@41.7.6:
+  version "41.7.6"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-41.7.6.tgz#240a72a5b14930448dd78e7f07b7e1e0a4ec9c76"
+  integrity sha512-jz+9T0TK5otqM2VMeIEiix4HjtQF/RYsdFjABWXOSCta0Fc1/+ReWAv+X8AolvJCak5kJ4czvfgwD+tBBiI54w==
   dependencies:
     "@vercel/build-utils" "10.5.1"
-    "@vercel/fun" "1.1.5"
+    "@vercel/fun" "1.1.6"
     "@vercel/go" "3.2.1"
     "@vercel/hydrogen" "1.2.0"
     "@vercel/next" "4.7.11"
     "@vercel/node" "5.1.16"
     "@vercel/python" "4.7.2"
     "@vercel/redwood" "2.3.1"
-    "@vercel/remix-builder" "5.4.4"
+    "@vercel/remix-builder" "5.4.5"
     "@vercel/ruby" "2.2.0"
     "@vercel/static-build" "2.7.7"
     chokidar "4.0.0"
