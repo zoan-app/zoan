@@ -5569,10 +5569,10 @@
     picomatch "^4.0.2"
     resolve-from "^5.0.0"
 
-"@vercel/node@5.2.2":
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.2.2.tgz#728a9375f1bc9b39699fea160cb4dac58d262fcf"
-  integrity sha512-BcpCn6NVLBBWDSKUVCMmmM1mUoYttGwWIuOL8HpF2AbOnx1NzUTlrR6pvBLxs403DIjEfPzqgYHLxITg85oi7w==
+"@vercel/node@5.3.0":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.3.0.tgz#71bf66918625ac9af8099d7cb3a50ba45393771a"
+  integrity sha512-NeE5c7dRt9PXUzq7zUA+rj94l7AoXBw2cE+xK0hIoYDcWbIJVYBhbkBtzNdZx8CGncUJ2wMq01gn8pCwoQ0xYA==
   dependencies:
     "@edge-runtime/node-utils" "2.3.0"
     "@edge-runtime/primitives" "4.1.0"
@@ -18155,10 +18155,10 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@43.2.0:
-  version "43.2.0"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-43.2.0.tgz#a4641b20eeecad403b725c541fc019829a34fa89"
-  integrity sha512-e47JEu7Hk5XA+FysBN4ZH9XiM1+RRRW9FC4fo5dDXsnHSsVlMkU1WWa8B4OERPYEqQGS2usfUf9kRAsNBShWGQ==
+vercel@43.3.0:
+  version "43.3.0"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-43.3.0.tgz#e55c7ada41ee0f80a9cb00e25240e990a6f3e01f"
+  integrity sha512-EID1ooEAp8F6JxR9WEckDX91qBuLhNvEltHbdKVmYwAbaPyB8q/G/51DJgDoT4ZALdbDujsVxGXDUp0nU26ouQ==
   dependencies:
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "10.6.1"
@@ -18166,7 +18166,7 @@ vercel@43.2.0:
     "@vercel/go" "3.2.1"
     "@vercel/hydrogen" "1.2.2"
     "@vercel/next" "4.9.0"
-    "@vercel/node" "5.2.2"
+    "@vercel/node" "5.3.0"
     "@vercel/python" "4.7.2"
     "@vercel/redwood" "2.3.3"
     "@vercel/remix-builder" "5.4.9"
