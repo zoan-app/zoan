@@ -62,7 +62,7 @@
     "jest": "30.0.5",
     "start-server-webpack-plugin": "2.2.5",
     "supertest": "7.1.4",
-    "ts-jest": "29.4.0",
+    "ts-jest": "29.4.1",
     "ts-loader": "9.5.2",
     "ts-node": "10.9.2",
     "tsconfig-paths": "4.2.0",
