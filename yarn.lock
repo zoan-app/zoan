@@ -5531,10 +5531,10 @@
     etag "1.8.1"
     fs-extra "11.1.0"
 
-"@vercel/go@3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@vercel/go/-/go-3.2.2.tgz#88095e1c403955b446c971cce4d1036e44f475d8"
-  integrity sha512-yYIU3OXkuoxzr47vf+HZnVGujzkVW/e5hrUK0jzCzzmjgo4+5ECrXDSA1bTB6qmWEy6HVsSovnKoHkwDqNIN6Q==
+"@vercel/go@3.2.3":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@vercel/go/-/go-3.2.3.tgz#88ca10154757574fc6d37b2b889fb9ebc678459d"
+  integrity sha512-PErgHlV7cf8hyPq31aRsL4xm5t4rCSO6vN5AQLlAGSy3ctdgqG7sI6hq/CAKo3CfgIhVHUwNYapFJgGJB/s4OA==
 
 "@vercel/hono@0.0.9":
   version "0.0.9"
@@ -18544,15 +18544,15 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@44.7.2:
-  version "44.7.2"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-44.7.2.tgz#6488d8f6556d75fa22c94660967886c875fb2588"
-  integrity sha512-RL8+b23qnxcxNELm4Mt74Ye88iRL5JX0OZWfHBcnAXWyp4laK2hE2BEZgvr0AobprFBAzIdBXyaqSscQ+rQNqw==
+vercel@44.7.3:
+  version "44.7.3"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-44.7.3.tgz#597cc854d0f8a4e5c6220b464ee2335a50b80efa"
+  integrity sha512-tSYF3bPmJ81XuX5/9pu8bx6xI2LxTP7RhRjymkcr7yHQniVpmFe9FQA06OH5DALydPmELRyKJAiWO2eu6llM9A==
   dependencies:
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "11.0.0"
     "@vercel/fun" "1.1.6"
-    "@vercel/go" "3.2.2"
+    "@vercel/go" "3.2.3"
     "@vercel/hono" "0.0.9"
     "@vercel/hydrogen" "1.2.3"
     "@vercel/next" "4.11.0"
