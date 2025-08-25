@@ -4699,10 +4699,10 @@
   dependencies:
     tslib "^2.4.0"
 
-"@typegoose/typegoose@12.18.0":
-  version "12.18.0"
-  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-12.18.0.tgz#5408d5fc4f30851b9b643cff4cc5913186586088"
-  integrity sha512-b1kXa4j0YZWXgc9B/xAzFbcEpIevf8PQ8LGK6Yl3clWpZKJLGKVMf/kE5mvat3nV1Twdr6OCWvMHFSVB3K5b7g==
+"@typegoose/typegoose@12.19.0":
+  version "12.19.0"
+  resolved "https://registry.yarnpkg.com/@typegoose/typegoose/-/typegoose-12.19.0.tgz#67fbf5ea7d989d170ba32737966140a49a92f0ea"
+  integrity sha512-rsHMd3M6Rj6YYw6ecZU6YtXjiBzCqO3zJtgrrVCau1bEp6na8sbMcqRy8kNbTRyA2QCBAGEvM7nXTM8hdxeEiQ==
   dependencies:
     lodash "^4.17.20"
     loglevel "^1.9.2"
