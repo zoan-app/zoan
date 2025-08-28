@@ -5488,13 +5488,13 @@
   resolved "https://registry.yarnpkg.com/@vercel/error-utils/-/error-utils-2.0.3.tgz#72575bf3a3ff3e67f474364e24e753d113c5b79a"
   integrity sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ==
 
-"@vercel/express@0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@vercel/express/-/express-0.0.8.tgz#8ff894459ec7b24e939b518b97c3ef168e3a5774"
-  integrity sha512-FZy3ViUHx0cgM60CEzzq1BFrKPAM7Rx77x+2BG0z4UJySDAhPb5XdXokbU/lX6i5BSEL13U47lnR1abSi9GPhg==
+"@vercel/express@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@vercel/express/-/express-0.0.9.tgz#3a5161ae820143d347ece638c78308832debfa42"
+  integrity sha512-U3vupiy6TXajMjCyHtL0fkpkI5lmUy7k5+L2rrLCbUd7cthLdTGxq3Cv8/py4nm4fz3NDZxM9W3RAVNbTcNkFQ==
   dependencies:
-    "@vercel/node" "5.3.15"
-    "@vercel/static-config" "3.1.1"
+    "@vercel/node" "5.3.16"
+    "@vercel/static-config" "3.1.2"
     ts-morph "12.0.0"
 
 "@vercel/fun@1.1.6":
@@ -5544,21 +5544,21 @@
   resolved "https://registry.yarnpkg.com/@vercel/go/-/go-3.2.3.tgz#88ca10154757574fc6d37b2b889fb9ebc678459d"
   integrity sha512-PErgHlV7cf8hyPq31aRsL4xm5t4rCSO6vN5AQLlAGSy3ctdgqG7sI6hq/CAKo3CfgIhVHUwNYapFJgGJB/s4OA==
 
-"@vercel/hono@0.0.16":
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/@vercel/hono/-/hono-0.0.16.tgz#1e4cf4a36f83339796a9f6b060b98b80d5c103a1"
-  integrity sha512-/H90oylh8yupZzEbf51jmpzu91kmVtACpkbaWoDi6FP8Wec1sdNKYiTc/watzHNER5RR5z9g0QdiH8ZoOo3MXg==
+"@vercel/hono@0.0.17":
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/@vercel/hono/-/hono-0.0.17.tgz#e13a3ffe4dbf2cfc6781ea6b6d1da36b52ca88c7"
+  integrity sha512-ZXs2OwaaDypJzPdPTe+js/CVpSqqG4A0hN8aIHiIj7rnI7AQ8DZmw4wOvcbUVL+5f/v/n2OSvlhyPefvRqUjjQ==
   dependencies:
-    "@vercel/node" "5.3.15"
-    "@vercel/static-config" "3.1.1"
+    "@vercel/node" "5.3.16"
+    "@vercel/static-config" "3.1.2"
     ts-morph "12.0.0"
 
-"@vercel/hydrogen@1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@vercel/hydrogen/-/hydrogen-1.2.3.tgz#ae32bc72a3d871643346e0f46bccb73dda3e1e62"
-  integrity sha512-sU0HWHabNxlTdKQWPMDqwr+3MqnhXc4Tvnl4i9cbdEYn5061SEKhdfpl2RhuvPByQJ8sZL8soVXFHIjFBJAR4w==
+"@vercel/hydrogen@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@vercel/hydrogen/-/hydrogen-1.2.4.tgz#6ee0e596c3fde804cc334c52f7080af94e4a8076"
+  integrity sha512-eb16oesfgHuBlXxe+WqI+rMdP4QpeHXLJh9ropFy+StkWC2F0ZFKegutEpvJCRg0FHttRnn9uMzMmzJ2F4xKkg==
   dependencies:
-    "@vercel/static-config" "3.1.1"
+    "@vercel/static-config" "3.1.2"
     ts-morph "12.0.0"
 
 "@vercel/next@4.12.1":
@@ -5586,10 +5586,10 @@
     picomatch "^4.0.2"
     resolve-from "^5.0.0"
 
-"@vercel/node@5.3.15":
-  version "5.3.15"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.3.15.tgz#cd47a8b60110749300c5821526d27cc753f221e8"
-  integrity sha512-nxDfCk/wT043u9pTc2pjghQubi0TtQeb484lqMkf0fnSe8U6X9jM+MzaGylmTZXJX35barigIT+c4RJW5AWg2g==
+"@vercel/node@5.3.16":
+  version "5.3.16"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.3.16.tgz#b2f59aefdae1fa401b044b70fa42124d7ad2253a"
+  integrity sha512-S9lsnlWbYKGfPi66zNqs1HtEmvae92Jliie3U/6ckR9nBAVAAV9+miWjR7Sv/MsXBtdxV+l+8Z3HGw7WuGE9bw==
   dependencies:
     "@edge-runtime/node-utils" "2.3.0"
     "@edge-runtime/primitives" "4.1.0"
@@ -5598,7 +5598,7 @@
     "@vercel/build-utils" "11.0.2"
     "@vercel/error-utils" "2.0.3"
     "@vercel/nft" "0.30.1"
-    "@vercel/static-config" "3.1.1"
+    "@vercel/static-config" "3.1.2"
     async-listen "3.0.0"
     cjs-module-lexer "1.2.3"
     edge-runtime "2.5.9"
@@ -5618,24 +5618,24 @@
   resolved "https://registry.yarnpkg.com/@vercel/python/-/python-5.0.0.tgz#7baff2e4294a87226f1e55ec003235141319a0cb"
   integrity sha512-JHpYKQ8d478REzmF7NcJTJcncFziJhVOwzan8wW4F1RJOHGDBTPkATAgi4CPQIijToRamPCkgeECzNOvLUDR+w==
 
-"@vercel/redwood@2.3.5":
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/@vercel/redwood/-/redwood-2.3.5.tgz#7b83384524f960bcf5726ad6700a341b08d1c3b3"
-  integrity sha512-pZ8gkADH9/6Ketqc8fDvQNgWmGpJqEFtwABAoQ30k25PSzT+4Y13IdlTTxEFpaLro2s2cR6WjoIPz5l/1J8tmg==
+"@vercel/redwood@2.3.6":
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/@vercel/redwood/-/redwood-2.3.6.tgz#3ec66d410564f08a2f6dd6bc34fd7d175a59d8b8"
+  integrity sha512-Rm9xECWNIJOwtPsZ1/XcgyJj95KM7cWwNHYPMw8dzFAnLQGyapGe/YHEjxV6POI2RF8R0nFmU1t+45XBweYJJA==
   dependencies:
     "@vercel/nft" "0.30.1"
-    "@vercel/static-config" "3.1.1"
+    "@vercel/static-config" "3.1.2"
     semver "6.3.1"
     ts-morph "12.0.0"
 
-"@vercel/remix-builder@5.4.11":
-  version "5.4.11"
-  resolved "https://registry.yarnpkg.com/@vercel/remix-builder/-/remix-builder-5.4.11.tgz#d4ac4050d0adf491e3295ec4ee87501bfe9d2747"
-  integrity sha512-Z5JXARo0uXP+UIuSdtKnrhQPshDFZQP2pzKDCYXFIEvSsfI4AxmmVs3/g9ktoVcscsM+ZNEHpmAB2qLUx//5og==
+"@vercel/remix-builder@5.4.12":
+  version "5.4.12"
+  resolved "https://registry.yarnpkg.com/@vercel/remix-builder/-/remix-builder-5.4.12.tgz#e338b3b8bb6bb2e63846a579659bde57bdfe91d5"
+  integrity sha512-25HHNUpIu3TfuZnphDDX7yG+4QugbxDq0bB8d1KCeOWsKH+z0Zscg7rchs3Pqy6kdhV/US6zH+YAogtwMvdDMg==
   dependencies:
     "@vercel/error-utils" "2.0.3"
     "@vercel/nft" "0.30.1"
-    "@vercel/static-config" "3.1.1"
+    "@vercel/static-config" "3.1.2"
     path-to-regexp "6.1.0"
     path-to-regexp-updated "npm:path-to-regexp@6.3.0"
     ts-morph "12.0.0"
@@ -5645,20 +5645,20 @@
   resolved "https://registry.yarnpkg.com/@vercel/ruby/-/ruby-2.2.1.tgz#c36ba0568531f30193479d2442177201142fbadb"
   integrity sha512-DsmTCggOa/Uvt/9JkafXx9U+Bz5eNIb6Bs422EOQo2zKwcxW88ITSh8mM5m0dQ0+B4k02X/moVim6iFa4sjazg==
 
-"@vercel/static-build@2.7.19":
-  version "2.7.19"
-  resolved "https://registry.yarnpkg.com/@vercel/static-build/-/static-build-2.7.19.tgz#3fa23254761d29d3d8091a21237767cb1b63533d"
-  integrity sha512-D1B7OsEVDR/lN9nE/ZgelWSyLXzWTu4jyrZ5wjIQQTPSdX8k4mVSFr3CUabo7uznlHOOjthDyiIt/vKFQepTMg==
+"@vercel/static-build@2.7.20":
+  version "2.7.20"
+  resolved "https://registry.yarnpkg.com/@vercel/static-build/-/static-build-2.7.20.tgz#29776b8b91af1c8fc83fcbefd0395cdffce90a70"
+  integrity sha512-2Ggjk0fsVG2LgFjDmunIA6i9/UEaVxcinJblkR8aHeKecVL4ibqXhluiyXygAobfpRiYJlU9gXgS2veieB57sw==
   dependencies:
     "@vercel/gatsby-plugin-vercel-analytics" "1.0.11"
     "@vercel/gatsby-plugin-vercel-builder" "2.0.93"
-    "@vercel/static-config" "3.1.1"
+    "@vercel/static-config" "3.1.2"
     ts-morph "12.0.0"
 
-"@vercel/static-config@3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@vercel/static-config/-/static-config-3.1.1.tgz#176e594bb1b3d8771f52188ffcf6c68a15f9981c"
-  integrity sha512-IRtKnm9N1Uqd2ayIbLPjRtdwcl1GTWvqF1PuEVNm9O43kmoI+m9VpGlW8oga+5LQq1LmJ2Y67zHr7NbjrH1rrw==
+"@vercel/static-config@3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@vercel/static-config/-/static-config-3.1.2.tgz#813bd7584fe3ef003634c3a9fd5d72095d2003d6"
+  integrity sha512-2d+TXr6K30w86a+WbMbGm2W91O0UzO5VeemZYBBUJbCjk/5FLLGIi8aV6RS2+WmaRvtcqNTn2pUA7nCOK3bGcQ==
   dependencies:
     ajv "8.6.3"
     json-schema-to-ts "1.6.4"
@@ -18551,25 +18551,25 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@46.0.4:
-  version "46.0.4"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-46.0.4.tgz#62ded5439fd6a777fe73220f5ab28179fa6bee6c"
-  integrity sha512-t2Y+FlHPjzmA2qguWMP+TQ2CLocz67+UGRQve6OiWHiYpRsHH6HFUNMs7y3U3qsjCV8cg6J7ApRa+7oEDGeRVw==
+vercel@46.0.5:
+  version "46.0.5"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-46.0.5.tgz#23172772ee0cd01d584b77248030dc0f5884e02f"
+  integrity sha512-/xId++67R9siJ8E1tX69RVDgK+TNlfp4nDENpsdEMD/ZODWvEb28IuC38aQpXp8XJq76aZqK1UWI8hBzG5Hzag==
   dependencies:
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "11.0.2"
-    "@vercel/express" "0.0.8"
+    "@vercel/express" "0.0.9"
     "@vercel/fun" "1.1.6"
     "@vercel/go" "3.2.3"
-    "@vercel/hono" "0.0.16"
-    "@vercel/hydrogen" "1.2.3"
+    "@vercel/hono" "0.0.17"
+    "@vercel/hydrogen" "1.2.4"
     "@vercel/next" "4.12.1"
-    "@vercel/node" "5.3.15"
+    "@vercel/node" "5.3.16"
     "@vercel/python" "5.0.0"
-    "@vercel/redwood" "2.3.5"
-    "@vercel/remix-builder" "5.4.11"
+    "@vercel/redwood" "2.3.6"
+    "@vercel/remix-builder" "5.4.12"
     "@vercel/ruby" "2.2.1"
-    "@vercel/static-build" "2.7.19"
+    "@vercel/static-build" "2.7.20"
     chokidar "4.0.0"
     jose "5.9.6"
 
