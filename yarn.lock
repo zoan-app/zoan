@@ -7617,10 +7617,10 @@ color-string@^2.0.0:
   dependencies:
     color-name "^2.0.0"
 
-color@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/color/-/color-5.0.0.tgz#3583bf8f6a77cec41b329ea228dd05d2f5270218"
-  integrity sha512-16BlyiuyLq3MLxpRWyOTiWsO3ii/eLQLJUQXBSNcxMBBSnyt1ee9YUdaozQp03ifwm5woztEZGDbk9RGVuCsdw==
+color@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/color/-/color-5.0.1.tgz#4c72cd23a639cd6d4110936c6e9ca22b79eda880"
+  integrity sha512-6ckzzlDXoHjQW/gDy7yfbxHhWFLQKgKmp8zZxTjCXY8XtlGBJ5Xz39PWiiUsUvG71p1jjH/qvjmptQ6hfxLN/A==
   dependencies:
     color-convert "^3.0.1"
     color-string "^2.0.0"
