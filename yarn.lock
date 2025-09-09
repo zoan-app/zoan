@@ -5651,10 +5651,10 @@
   resolved "https://registry.yarnpkg.com/@vercel/ruby/-/ruby-2.2.1.tgz#c36ba0568531f30193479d2442177201142fbadb"
   integrity sha512-DsmTCggOa/Uvt/9JkafXx9U+Bz5eNIb6Bs422EOQo2zKwcxW88ITSh8mM5m0dQ0+B4k02X/moVim6iFa4sjazg==
 
-"@vercel/static-build@2.7.22":
-  version "2.7.22"
-  resolved "https://registry.yarnpkg.com/@vercel/static-build/-/static-build-2.7.22.tgz#419098e12f2d95146ab70fa92d4d60a0afe1742d"
-  integrity sha512-yge21I8KHCvqkFwD6TCOM+POrJP3AvyulvzAYK6IyGeH5ngO5RwYwX9kbe6hidWaVuuSfboJt6CAgxp0LIsEgA==
+"@vercel/static-build@2.7.23":
+  version "2.7.23"
+  resolved "https://registry.yarnpkg.com/@vercel/static-build/-/static-build-2.7.23.tgz#761896bde9ddbf2d38c0a7102502f9dd210eb8b2"
+  integrity sha512-F9u6FGWShfHbhldA9nRW6FdHfM7nVESYVGg+XOuWUlnyHnN6HiOFAze8wCb5yOuF5XXlp3bpn2IUByy4CPnjHQ==
   dependencies:
     "@vercel/gatsby-plugin-vercel-analytics" "1.0.11"
     "@vercel/gatsby-plugin-vercel-builder" "2.0.95"
@@ -18552,10 +18552,10 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@47.0.5:
-  version "47.0.5"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-47.0.5.tgz#2e6c442346a67989b7bccb52f36907c82d8c8386"
-  integrity sha512-KFkIxuSt0Gcl8IrhSb6epxU+IWe2L6UBW68RwSEH6peAfBO4PPV788ANQVRmziqxem8ag4f96QfIqvS8EgT2rQ==
+vercel@47.0.6:
+  version "47.0.6"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-47.0.6.tgz#92e2dc5e6f3f30ecb20b9380abe991e4bcab3781"
+  integrity sha512-oHYLH8FunvFS91JXER/7K1HhE5GIMCA3IAloGx2oMtzdmExo+NIobXGe0Zlbsg4cAG7yOmvCRMds6RfAxOs+ng==
   dependencies:
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "12.1.0"
@@ -18571,7 +18571,7 @@ vercel@47.0.5:
     "@vercel/redwood" "2.3.6"
     "@vercel/remix-builder" "5.4.12"
     "@vercel/ruby" "2.2.1"
-    "@vercel/static-build" "2.7.22"
+    "@vercel/static-build" "2.7.23"
     chokidar "4.0.0"
     jose "5.9.6"
 
