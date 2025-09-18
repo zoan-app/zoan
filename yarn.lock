@@ -5549,10 +5549,18 @@
   resolved "https://registry.yarnpkg.com/@vercel/go/-/go-3.2.3.tgz#88ca10154757574fc6d37b2b889fb9ebc678459d"
   integrity sha512-PErgHlV7cf8hyPq31aRsL4xm5t4rCSO6vN5AQLlAGSy3ctdgqG7sI6hq/CAKo3CfgIhVHUwNYapFJgGJB/s4OA==
 
-"@vercel/hono@0.0.25":
-  version "0.0.25"
-  resolved "https://registry.yarnpkg.com/@vercel/hono/-/hono-0.0.25.tgz#7088f6dd88bc0966c66d67589df5f82d6ad42793"
-  integrity sha512-5jL697pw1Gf6NXHLnAfAZ+ySqK8CiLcsk22aw1c5Zprx+IaqOFkMrTdOfHhZ4lIn1Cj4tABs/WvG86WJT2XmVQ==
+"@vercel/h3@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@vercel/h3/-/h3-0.1.0.tgz#65706de207b212ebaac2ed445f48244bf7528fe4"
+  integrity sha512-S+OWmovSRncCJEMV6Zh7z1OiC8scR/VMvLKClEtvmZg+qAPDMpdQLBvL3X91qrQAkqJEq5+dVypI0qE4GpQwEw==
+  dependencies:
+    "@vercel/node" "5.3.22"
+    "@vercel/static-config" "3.1.2"
+
+"@vercel/hono@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@vercel/hono/-/hono-0.1.0.tgz#c6c71262718ad3dff3b75fb76091c43766c6cbe4"
+  integrity sha512-jn2WMBLKV7lfjVOYSMtWNI0fGO8GWuQu3BM5vDL0go3uU4me63GbRqZSA2qnTMiE+pVhCrWalwXGxrCVvQiGpg==
   dependencies:
     "@vercel/node" "5.3.22"
     "@vercel/static-config" "3.1.2"
@@ -18552,10 +18560,10 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@48.0.2:
-  version "48.0.2"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-48.0.2.tgz#db9530536243c3683d9a4d60e6ab8ebb95dad766"
-  integrity sha512-saQWQuu2nXI8I8yxrHXDNeyV/A1v2fGri/B8XS/hMtZqzpiXeMw2edzlZPoLiinRAtNJsCaXf6Y5kEgstXhoIg==
+vercel@48.0.3:
+  version "48.0.3"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-48.0.3.tgz#f87c6be1d25bf2ca4e9a736de936ccb1326d7151"
+  integrity sha512-RCBpx4pSg9C0G5cloj0IfI40n6tLSt7N8CkaIfJWqBMMVcZvS2fRcUKxQ+cytkAquwyze27+vISILaFNIP/0QA==
   dependencies:
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "12.1.0"
@@ -18563,7 +18571,8 @@ vercel@48.0.2:
     "@vercel/express" "0.0.16"
     "@vercel/fun" "1.1.6"
     "@vercel/go" "3.2.3"
-    "@vercel/hono" "0.0.25"
+    "@vercel/h3" "0.1.0"
+    "@vercel/hono" "0.1.0"
     "@vercel/hydrogen" "1.2.4"
     "@vercel/next" "4.12.5"
     "@vercel/node" "5.3.22"
