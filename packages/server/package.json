@@ -22,7 +22,7 @@
   "dependencies": {
     "@nestjs/common": "11.1.6",
     "@nestjs/core": "11.1.6",
-    "@nestjs/graphql": "13.1.0",
+    "@nestjs/graphql": "13.2.0",
     "@nestjs/platform-express": "11.1.6",
     "@nestjs/platform-fastify": "11.1.6",
     "@nestjs/serve-static": "5.0.3",
