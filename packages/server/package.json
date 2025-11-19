@@ -37,7 +37,7 @@
     "mongoose": "5.10.18",
     "nestjs-typegoose": "7.1.38",
     "reflect-metadata": "0.2.2",
-    "rimraf": "6.1.0",
+    "rimraf": "6.1.2",
     "rxjs": "7.8.2",
     "source-map-support": "0.5.21",
     "type-graphql": "1.1.1"
