@@ -3320,6 +3320,11 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/retry/-/retry-0.4.2.tgz#1860473de7dfa1546767448f333db80cb0ff2161"
   integrity sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==
 
+"@iarna/toml@^2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
+  integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
+
 "@inquirer/ansi@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@inquirer/ansi/-/ansi-1.0.2.tgz#674a4c4d81ad460695cb2a1fc69d78cd187f337e"
@@ -6009,6 +6014,14 @@
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/@vercel/ruby/-/ruby-2.2.2.tgz#6727bfc727573f0bdb3d9f4309cd76df917ab74f"
   integrity sha512-PgO3kVPPmYw914BQpgi2/NQSgaXe4xoLLdNhYuI7tJxwfZzVfYizNvhjREyoOvn96LeuB4gNS5P7nbeJjHqb/w==
+
+"@vercel/rust@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@vercel/rust/-/rust-1.0.3.tgz#fbbe34959c53cd10c50742076560dc08188c046a"
+  integrity sha512-u0kh2ZafuxTelXPRbv2/tR6cC9MBjgRhrzVuKxOZk7GyLnFwNTDuNwoP4iJ03yF1k5GqGYB0v+0Zvty67isAAQ==
+  dependencies:
+    "@iarna/toml" "^2.2.5"
+    execa "5"
 
 "@vercel/static-build@2.8.11":
   version "2.8.11"
@@ -10267,10 +10280,10 @@ execa@3.2.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-5.0.0.tgz#4029b0007998a841fbd1032e5f4de86a3c1e3376"
-  integrity sha512-ov6w/2LCiuyO4RLYGdpFGjkcs0wMTgGE8PrkTHikeUy5iJekXyPIKUjifk5CsE0pt7sMCrMZ3YNqoCj6idQOnQ==
+execa@5, execa@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-5.1.1.tgz#f80ad9cbf4298f7bd1d4c9555c21e93741c411dd"
+  integrity sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==
   dependencies:
     cross-spawn "^7.0.3"
     get-stream "^6.0.0"
@@ -10282,10 +10295,10 @@ execa@^5.0.0:
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
 
-execa@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-5.1.1.tgz#f80ad9cbf4298f7bd1d4c9555c21e93741c411dd"
-  integrity sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==
+execa@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-5.0.0.tgz#4029b0007998a841fbd1032e5f4de86a3c1e3376"
+  integrity sha512-ov6w/2LCiuyO4RLYGdpFGjkcs0wMTgGE8PrkTHikeUy5iJekXyPIKUjifk5CsE0pt7sMCrMZ3YNqoCj6idQOnQ==
   dependencies:
     cross-spawn "^7.0.3"
     get-stream "^6.0.0"
@@ -19048,10 +19061,10 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@48.10.14:
-  version "48.10.14"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-48.10.14.tgz#e749f7c8bdc6bd913f554936d6f464576c172769"
-  integrity sha512-uUukZtsRWF5nxOWkt7Rt0+IPu07rMmAC9vCCEbnatrfu1SLE+/9aZfverJjhUzCLdC9sm0JVxI+g7Er4A8yDqA==
+vercel@48.11.0:
+  version "48.11.0"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-48.11.0.tgz#dfbbad8fe17adeef60c9361972a558227d1cdb27"
+  integrity sha512-q9zVkONGB5KzuSQOUQ/U/ob0yIHieSkCBATQOn2gnCB7Gyz/rRyXaqaHR0J0DeOGun39DO2KlvcFhs05oH6OCA==
   dependencies:
     "@vercel/backends" "0.0.12"
     "@vercel/blob" "1.0.2"
@@ -19071,6 +19084,7 @@ vercel@48.10.14:
     "@vercel/redwood" "2.4.3"
     "@vercel/remix-builder" "5.5.3"
     "@vercel/ruby" "2.2.2"
+    "@vercel/rust" "1.0.3"
     "@vercel/static-build" "2.8.11"
     chokidar "4.0.0"
     jose "5.9.6"
