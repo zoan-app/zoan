@@ -2631,6 +2631,14 @@
     "@emnapi/wasi-threads" "1.1.0"
     tslib "^2.4.0"
 
+"@emnapi/core@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@emnapi/core/-/core-1.7.1.tgz#3a79a02dbc84f45884a1806ebb98e5746bdfaac4"
+  integrity sha512-o1uhUASyo921r2XtHYOHy7gdkGLge8ghBEQHMWmyJFoXlpU58kIrhhN3w26lpQb6dspetweapMn2CSNwQ8I4wg==
+  dependencies:
+    "@emnapi/wasi-threads" "1.1.0"
+    tslib "^2.4.0"
+
 "@emnapi/runtime@^1.4.3":
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/@emnapi/runtime/-/runtime-1.4.3.tgz#c0564665c80dc81c448adac23f9dfbed6c838f7d"
@@ -2642,6 +2650,13 @@
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@emnapi/runtime/-/runtime-1.5.0.tgz#9aebfcb9b17195dce3ab53c86787a6b7d058db73"
   integrity sha512-97/BJ3iXHww3djw6hYIfErCZFee7qCtrneuLa20UXFCOTCfBM2cvQHjWJ2EG0s0MtdNwInarqCTz35i4wWXHsQ==
+  dependencies:
+    tslib "^2.4.0"
+
+"@emnapi/runtime@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@emnapi/runtime/-/runtime-1.7.1.tgz#a73784e23f5d57287369c808197288b52276b791"
+  integrity sha512-PVtJr5CmLwYAU9PZDMITZoR5iAOShYREoR45EyyLrbntV50mdePTgUn4AmOw90Ifcj+x2kRjdzr1HP3RrNiHGA==
   dependencies:
     tslib "^2.4.0"
 
@@ -4453,6 +4468,15 @@
     "@emnapi/runtime" "^1.5.0"
     "@tybys/wasm-util" "^0.10.1"
 
+"@napi-rs/wasm-runtime@^1.0.7":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.0.tgz#c0180393d7862cff0d412e3e1a7c3bd5ea6d9b2f"
+  integrity sha512-Fq6DJW+Bb5jaWE69/qOE0D1TUN9+6uWhCeZpdnSBk14pjLcCWR7Q8n49PTSPHazM37JqrsdpEthXy2xn6jWWiA==
+  dependencies:
+    "@emnapi/core" "^1.7.1"
+    "@emnapi/runtime" "^1.7.1"
+    "@tybys/wasm-util" "^0.10.1"
+
 "@nestjs/cli@11.0.14":
   version "11.0.14"
   resolved "https://registry.yarnpkg.com/@nestjs/cli/-/cli-11.0.14.tgz#c1b7fd195813cacaa4f90d398d618ae4d71fc2ab"
@@ -4628,6 +4652,11 @@
   resolved "https://registry.yarnpkg.com/@oxc-project/types/-/types-0.82.3.tgz#347ade99a5fd7bb43ff9c3f37ae06ebcf0e62129"
   integrity sha512-6nCUxBnGX0c6qfZW5MaF6/fmu5dHJDMiMPaioKHKs5mi5+8/FHQ7WGjgQIz1zxpmceMYfdIXkOaLYE+ejbuOtA==
 
+"@oxc-project/types@=0.99.0":
+  version "0.99.0"
+  resolved "https://registry.yarnpkg.com/@oxc-project/types/-/types-0.99.0.tgz#5f59db0ae50d0b7669771465cca22606a3bfe308"
+  integrity sha512-LLDEhXB7g1m5J+woRSgfKsFPS3LhR9xRhTeIoEBm5WrkwMxn6eZ0Ld0c0K5eHB57ChZX6I3uSmmLjZ8pcjlRcw==
+
 "@paralleldrive/cuid2@^2.2.2":
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/@paralleldrive/cuid2/-/cuid2-2.2.2.tgz#7f91364d53b89e2c9cb9e02e8dd0f129e834455f"
@@ -4728,50 +4757,100 @@
   resolved "https://registry.yarnpkg.com/@rolldown/binding-android-arm64/-/binding-android-arm64-1.0.0-beta.35.tgz#661549fc72757e5750280607190265d9e77fc5e4"
   integrity sha512-zVTg0544Ib1ldJSWwjy8URWYHlLFJ98rLnj+2FIj5fRs4KqGKP4VgH/pVUbXNGxeLFjItie6NSK1Un7nJixneQ==
 
+"@rolldown/binding-android-arm64@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-android-arm64/-/binding-android-arm64-1.0.0-beta.52.tgz#734504fac4771176d1fd97699699476005b877c2"
+  integrity sha512-MBGIgysimZPqTDcLXI+i9VveijkP5C3EAncEogXhqfax6YXj1Tr2LY3DVuEOMIjWfMPMhtQSPup4fSTAmgjqIw==
+
 "@rolldown/binding-darwin-arm64@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-1.0.0-beta.35.tgz#4b6de3cd4ad988cca2f0dba78afd8162a0cec0ff"
   integrity sha512-WPy0qx22CABTKDldEExfpYHWHulRoPo+m/YpyxP+6ODUPTQexWl8Wp12fn1CVP0xi0rOBj7ugs6+kKMAJW56wQ==
+
+"@rolldown/binding-darwin-arm64@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-darwin-arm64/-/binding-darwin-arm64-1.0.0-beta.52.tgz#073b685a1cbc421fc5cf23be898399efbed43b2f"
+  integrity sha512-MmKeoLnKu1d9j6r19K8B+prJnIZ7u+zQ+zGQ3YHXGnr41rzE3eqQLovlkvoZnRoxDGPA4ps0pGiwXy6YE3lJyg==
 
 "@rolldown/binding-darwin-x64@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-darwin-x64/-/binding-darwin-x64-1.0.0-beta.35.tgz#9c20db7c0261caf0659324ce5d9d5a0f0a31da15"
   integrity sha512-3k1TabJafF/GgNubXMkfp93d5p30SfIMOmQ5gm1tFwO+baMxxVPwDs3FDvSl+feCWwXxBA+bzemgkaDlInmp1Q==
 
+"@rolldown/binding-darwin-x64@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-darwin-x64/-/binding-darwin-x64-1.0.0-beta.52.tgz#f03055fdb09e2bf3369be0e899c68fac9ff1cd9c"
+  integrity sha512-qpHedvQBmIjT8zdnjN3nWPR2qjQyJttbXniCEKKdHeAbZG9HyNPBUzQF7AZZGwmS9coQKL+hWg9FhWzh2dZ2IA==
+
 "@rolldown/binding-freebsd-x64@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-freebsd-x64/-/binding-freebsd-x64-1.0.0-beta.35.tgz#fc5084ae50bc89776ebe212f0d7f74e890fc6eec"
   integrity sha512-GAiapN5YyIocnBVNEiOxMfWO9NqIeEKKWohj1sPLGc61P+9N1meXOOCiAPbLU+adXq0grtbYySid+Or7f2q+Mg==
+
+"@rolldown/binding-freebsd-x64@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-freebsd-x64/-/binding-freebsd-x64-1.0.0-beta.52.tgz#4db3dec7becd845520a4c861245e1d4b267f846a"
+  integrity sha512-dDp7WbPapj/NVW0LSiH/CLwMhmLwwKb3R7mh2kWX+QW85X1DGVnIEyKh9PmNJjB/+suG1dJygdtdNPVXK1hylg==
 
 "@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-arm-gnueabihf/-/binding-linux-arm-gnueabihf-1.0.0-beta.35.tgz#bce5b7227ee825e5606bfa79cdc52726ce2049bb"
   integrity sha512-okPKKIE73qkUMvq7dxDyzD0VIysdV4AirHqjf8tGTjuNoddUAl3WAtMYbuZCEKJwUyI67UINKO1peFVlYEb+8w==
 
+"@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-arm-gnueabihf/-/binding-linux-arm-gnueabihf-1.0.0-beta.52.tgz#9e59d3f23203895f42d0b2aeed16c5fa6c67d291"
+  integrity sha512-9e4l6vy5qNSliDPqNfR6CkBOAx6PH7iDV4OJiEJzajajGrVy8gc/IKKJUsoE52G8ud8MX6r3PMl97NfwgOzB7g==
+
 "@rolldown/binding-linux-arm64-gnu@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.0.0-beta.35.tgz#c9817cf0c85467e94c71fe01a5d7120f028c91ca"
   integrity sha512-Nky8Q2cxyKVkEETntrvcmlzNir5khQbDfX3PflHPbZY7XVZalllRqw7+MW5vn+jTsk5BfKVeLsvrF4344IU55g==
+
+"@rolldown/binding-linux-arm64-gnu@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.0.0-beta.52.tgz#b24de9a79b40c79949e52d264d2ed899af02b7c8"
+  integrity sha512-V48oDR84feRU2KRuzpALp594Uqlx27+zFsT6+BgTcXOtu7dWy350J1G28ydoCwKB+oxwsRPx2e7aeQnmd3YJbQ==
 
 "@rolldown/binding-linux-arm64-musl@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.0.0-beta.35.tgz#a16ee257feaf6401cd48dbb40463388df83a5688"
   integrity sha512-8aHpWVSfZl3Dy2VNFG9ywmlCPAJx45g0z+qdOeqmYceY7PBAT4QGzii9ig1hPb1pY8K45TXH44UzQwr2fx352Q==
 
+"@rolldown/binding-linux-arm64-musl@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.0.0-beta.52.tgz#5482f1f0f977c4f757a86584d4c80de15c3c0670"
+  integrity sha512-ENLmSQCWqSA/+YN45V2FqTIemg7QspaiTjlm327eUAMeOLdqmSOVVyrQexJGNTQ5M8sDYCgVAig2Kk01Ggmqaw==
+
 "@rolldown/binding-linux-x64-gnu@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.0.0-beta.35.tgz#b0f5697ace246f5d7f8bd7f98a20c4bb5bc2c1d8"
   integrity sha512-1r1Ac/vTcm1q4kRiX/NB6qtorF95PhjdCxKH3Z5pb+bWMDZnmcz18fzFlT/3C6Qpj/ZqUF+EUrG4QEDXtVXGgg==
+
+"@rolldown/binding-linux-x64-gnu@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.0.0-beta.52.tgz#e2cb65499fdf59c5031bbf7849b4d82b2ad3deb4"
+  integrity sha512-klahlb2EIFltSUubn/VLjuc3qxp1E7th8ukayPfdkcKvvYcQ5rJztgx8JsJSuAKVzKtNTqUGOhy4On71BuyV8g==
 
 "@rolldown/binding-linux-x64-musl@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.0.0-beta.35.tgz#31505abe4aa675cebfda763881c3abe37f957081"
   integrity sha512-AFl1LnuhUBDfX2j+cE6DlVGROv4qG7GCPDhR1kJqi2+OuXGDkeEjqRvRQOFErhKz1ckkP/YakvN7JheLJ2PKHQ==
 
+"@rolldown/binding-linux-x64-musl@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.0.0-beta.52.tgz#950b22dc188521a74938bcd2fe3f73f19aa086e7"
+  integrity sha512-UuA+JqQIgqtkgGN2c/AQ5wi8M6mJHrahz/wciENPTeI6zEIbbLGoth5XN+sQe2pJDejEVofN9aOAp0kaazwnVg==
+
 "@rolldown/binding-openharmony-arm64@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-openharmony-arm64/-/binding-openharmony-arm64-1.0.0-beta.35.tgz#e9777f2f0ecd131b9390d3048024628d450b5cf9"
   integrity sha512-Tuwb8vPs+TVJlHhyLik+nwln/burvIgaPDgg6wjNZ23F1ttjZi0w0rQSZfAgsX4jaUbylwCETXQmTp3w6vcJMw==
+
+"@rolldown/binding-openharmony-arm64@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-openharmony-arm64/-/binding-openharmony-arm64-1.0.0-beta.52.tgz#496c12579da3620c7d4daa39eac4474ea5e8de82"
+  integrity sha512-1BNQW8u4ro8bsN1+tgKENJiqmvc+WfuaUhXzMImOVSMw28pkBKdfZtX2qJPADV3terx+vNJtlsgSGeb3+W6Jiw==
 
 "@rolldown/binding-wasm32-wasi@1.0.0-beta.35":
   version "1.0.0-beta.35"
@@ -4780,25 +4859,52 @@
   dependencies:
     "@napi-rs/wasm-runtime" "^1.0.3"
 
+"@rolldown/binding-wasm32-wasi@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-wasm32-wasi/-/binding-wasm32-wasi-1.0.0-beta.52.tgz#a06cb59dca62f34e3c08afc97bacaff5e646f15f"
+  integrity sha512-K/p7clhCqJOQpXGykrFaBX2Dp9AUVIDHGc+PtFGBwg7V+mvBTv/tsm3LC3aUmH02H2y3gz4y+nUTQ0MLpofEEg==
+  dependencies:
+    "@napi-rs/wasm-runtime" "^1.0.7"
+
 "@rolldown/binding-win32-arm64-msvc@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.0.0-beta.35.tgz#db57d76c8319939b114a4cfa9b3e09fa838dc1c2"
   integrity sha512-WeOfAZrycFo9+ZqTDp3YDCAOLolymtKGwImrr9n+OW0lpwI2UKyKXbAwGXRhydAYbfrNmuqWyfyoAnLh3X9Hjg==
+
+"@rolldown/binding-win32-arm64-msvc@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.0.0-beta.52.tgz#73042d9084ab9838ca03ad57f7b2a63c58da6a02"
+  integrity sha512-a4EkXBtnYYsKipjS7QOhEBM4bU5IlR9N1hU+JcVEVeuTiaslIyhWVKsvf7K2YkQHyVAJ+7/A9BtrGqORFcTgng==
 
 "@rolldown/binding-win32-ia32-msvc@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-1.0.0-beta.35.tgz#ec6427a5393e082112bc8bb1aac7ac5a069d0036"
   integrity sha512-XkLT7ikKGiUDvLh7qtJHRukbyyP1BIrD1xb7A+w4PjIiOKeOH8NqZ+PBaO4plT7JJnLxx+j9g/3B7iylR1nTFQ==
 
+"@rolldown/binding-win32-ia32-msvc@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-1.0.0-beta.52.tgz#c8ba7b003fe8552bf21bd93ec7f6d7f9681cbdf5"
+  integrity sha512-5ZXcYyd4GxPA6QfbGrNcQjmjbuLGvfz6728pZMsQvGHI+06LT06M6TPtXvFvLgXtexc+OqvFe1yAIXJU1gob/w==
+
 "@rolldown/binding-win32-x64-msvc@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.0-beta.35.tgz#19788b2ec97679b1ebec305e4fec39bfa6db352d"
   integrity sha512-rftASFKVzjbcQHTCYHaBIDrnQFzbeV50tm4hVugG3tPjd435RHZC2pbeGV5IPdKEqyJSuurM/GfbV3kLQ3LY/A==
 
+"@rolldown/binding-win32-x64-msvc@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.0.0-beta.52.tgz#6b53bf101d6cdfcde46adfdc1402963971eae4fc"
+  integrity sha512-tzpnRQXJrSzb8Z9sm97UD3cY0toKOImx+xRKsDLX4zHaAlRXWh7jbaKBePJXEN7gNw7Nm03PBNwphdtA8KSUYQ==
+
 "@rolldown/pluginutils@1.0.0-beta.35":
   version "1.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.35.tgz#1a477e7742b154b67519d40e4fc17485de338e7a"
   integrity sha512-slYrCpoxJUqzFDDNlvrOYRazQUNRvWPjXA17dAOISY3rDMxX6k8K4cj2H+hEYMHF81HO3uNd5rHVigAWRM5dSg==
+
+"@rolldown/pluginutils@1.0.0-beta.52":
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.52.tgz#8c6f510bef4e2600da2e8999e928b7c9d414a051"
+  integrity sha512-/L0htLJZbaZFL1g9OHOblTxbCYIGefErJjtYOwgl9ZqNx27P3L0SDfjhhHIss32gu5NWgnxuT2a2Hnnv6QGHKA==
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.0"
@@ -5885,12 +5991,12 @@
   resolved "https://registry.yarnpkg.com/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.7.13.tgz#6d2643f810c30c9561bbd8348a2fb4aa0edde4f9"
   integrity sha512-tI0+FTntE3BD0UxhTP12F/iTtkeMK+qh72/2aSxPZnTlOcMR9CTJid8CdppbSjj9wenq7PNcqScLtpPENH3Lvg==
 
-"@vercel/backends@0.0.16":
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/@vercel/backends/-/backends-0.0.16.tgz#3fdf1f21c8f80643e0175a95e5c1f780fe95c003"
-  integrity sha512-095BFSnUFu3Glrf6D2VFWBQ1Klu0ZdoVSuBUQ+OjklSWmi3eB0qxD8mtKEncljFZk34qqpgKXatsw7vn4wqRfg==
+"@vercel/backends@0.0.17":
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/@vercel/backends/-/backends-0.0.17.tgz#1229ab2840c129e2690d11f090b8697ea8d373a1"
+  integrity sha512-T1wTYvBbOuSStMM3GO2YK39YOZaCsT8GpkSOP0+3Ya9MO7qkOsOTIkzIzMY4SRO1e1CiVqqlbkGgwsGirgc6mA==
   dependencies:
-    "@vercel/cervel" "0.0.6"
+    "@vercel/cervel" "0.0.7"
     "@vercel/introspection" "0.0.7"
     "@vercel/nft" "1.1.1"
     "@vercel/static-config" "3.1.2"
@@ -5913,13 +6019,13 @@
   resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-13.2.3.tgz#85f6e2371967b9306910e5a2b1e4fcacd0c17979"
   integrity sha512-SmXSNXfRh7E3wKR50IV3bGHw9iE5bw6D08LYvJdkQv1SjUgYVuIf2P5ceUPjzA2dqrKol0dxMvYb28dNHxmj5w==
 
-"@vercel/cervel@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@vercel/cervel/-/cervel-0.0.6.tgz#14b87e203f90284c3323eeea866727bf8f5aa0ed"
-  integrity sha512-IW/gXg17sozYYb7O/1ycjUj08c2EOCWaTFULNzPs5K2nZEgd1E6CQNmCcyRjHeVzIl3i40YXzytdhUBp2zH9sQ==
+"@vercel/cervel@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@vercel/cervel/-/cervel-0.0.7.tgz#eaecdfd77b24ca86a5ab198d57476e45b3642dc4"
+  integrity sha512-x4AeBr6tiRO1QDK1T4DINtczdsedhPLnpOiwTuBUqhAs681Whf23elUrv2ibOXYeGQIWMcy1MlFh7wzac7E9RA==
   dependencies:
     execa "3.2.0"
-    rolldown "1.0.0-beta.35"
+    rolldown "1.0.0-beta.52"
     srvx "0.8.9"
     tsx "4.19.2"
 
@@ -5941,12 +6047,12 @@
   resolved "https://registry.yarnpkg.com/@vercel/error-utils/-/error-utils-2.0.3.tgz#72575bf3a3ff3e67f474364e24e753d113c5b79a"
   integrity sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ==
 
-"@vercel/express@0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@vercel/express/-/express-0.1.18.tgz#4552b0e7ac1732517b6035c05aaaf8ddfb612074"
-  integrity sha512-QMMTQwp/zge2PIE1nWrwUsYhCQljOCzcK0dS73YV6JFJ6TKaSmOusO/BW5Cw+N5YvZFpKsMsD60bPg+2JPU5PA==
+"@vercel/express@0.1.19":
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/@vercel/express/-/express-0.1.19.tgz#6a004c36d1894dd56e385db282577a52321b0132"
+  integrity sha512-7Iu/plYGHWHHhjpkRfNxUVlhNYaMuWUPLcqvDgp5G91slcC0tJHQwsrmVM8ApIcKUYSdoEeZC2dKdNf0CPN4Rw==
   dependencies:
-    "@vercel/cervel" "0.0.6"
+    "@vercel/cervel" "0.0.7"
     "@vercel/nft" "1.1.1"
     "@vercel/node" "5.5.15"
     "@vercel/static-config" "3.1.2"
@@ -6111,10 +6217,10 @@
     typescript5 "npm:typescript@5.9.3"
     undici "5.28.4"
 
-"@vercel/python@6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-6.1.1.tgz#c642c314261525957a0b9a135ef21491bafecc24"
-  integrity sha512-D3LVN/FTePxshjZFw5S5cIujWzE2nKPfLchDx6H/J9acNESo7vTzk9bGdhyW36Mwdp+b8CwElu9oc4oQCfEKrw==
+"@vercel/python@6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-6.1.2.tgz#651ef51d6d8d259179b5d6443e4cd668dec20540"
+  integrity sha512-R9IKr7G1tlgxwpGZH/24mhIlsEy81K49KyRds2f7h39lZMeew3IBjYKH8T+lEcEpUTTilSe+w3U0Lga/bF1bjg==
 
 "@vercel/redwood@2.4.6":
   version "2.4.6"
@@ -16891,6 +16997,29 @@ rolldown@1.0.0-beta.35:
     "@rolldown/binding-win32-ia32-msvc" "1.0.0-beta.35"
     "@rolldown/binding-win32-x64-msvc" "1.0.0-beta.35"
 
+rolldown@1.0.0-beta.52:
+  version "1.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/rolldown/-/rolldown-1.0.0-beta.52.tgz#23b3abfb218ccfa89434bf23b19b539ac3319a75"
+  integrity sha512-Hbnpljue+JhMJrlOjQ1ixp9me7sUec7OjFvS+A1Qm8k8Xyxmw3ZhxFu7LlSXW1s9AX3POE9W9o2oqCEeR5uDmg==
+  dependencies:
+    "@oxc-project/types" "=0.99.0"
+    "@rolldown/pluginutils" "1.0.0-beta.52"
+  optionalDependencies:
+    "@rolldown/binding-android-arm64" "1.0.0-beta.52"
+    "@rolldown/binding-darwin-arm64" "1.0.0-beta.52"
+    "@rolldown/binding-darwin-x64" "1.0.0-beta.52"
+    "@rolldown/binding-freebsd-x64" "1.0.0-beta.52"
+    "@rolldown/binding-linux-arm-gnueabihf" "1.0.0-beta.52"
+    "@rolldown/binding-linux-arm64-gnu" "1.0.0-beta.52"
+    "@rolldown/binding-linux-arm64-musl" "1.0.0-beta.52"
+    "@rolldown/binding-linux-x64-gnu" "1.0.0-beta.52"
+    "@rolldown/binding-linux-x64-musl" "1.0.0-beta.52"
+    "@rolldown/binding-openharmony-arm64" "1.0.0-beta.52"
+    "@rolldown/binding-wasm32-wasi" "1.0.0-beta.52"
+    "@rolldown/binding-win32-arm64-msvc" "1.0.0-beta.52"
+    "@rolldown/binding-win32-ia32-msvc" "1.0.0-beta.52"
+    "@rolldown/binding-win32-x64-msvc" "1.0.0-beta.52"
+
 rollup-plugin-terser@^7.0.0:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/rollup-plugin-terser/-/rollup-plugin-terser-7.0.2.tgz#e8fbba4869981b2dc35ae7e8a502d5c6c04d324d"
@@ -19238,17 +19367,17 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@49.1.2:
-  version "49.1.2"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-49.1.2.tgz#52a1cce27c8ecda5f3c9d3b542a47063c4993668"
-  integrity sha512-rJ6EFC3Vm0hx2pnPPjP+YtHCjAG4S44JWrKFZQPdAQnKWXkmpgg0bjjehUcgvnQ3iILE9KW+pnzJzVcstf8poA==
+vercel@49.2.0:
+  version "49.2.0"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-49.2.0.tgz#54393dee7216ea495f779807098b6c7a553b58fd"
+  integrity sha512-bjYqkH4g4JadNjltoJGZPRqtQdivHDkE7R3Kasu/UlY7sSj5iYzJAZjBl+cuBT7Q1aDTKRJgp/3HmBFZLYeVWQ==
   dependencies:
-    "@vercel/backends" "0.0.16"
+    "@vercel/backends" "0.0.17"
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "13.2.3"
     "@vercel/detect-agent" "1.0.0"
     "@vercel/elysia" "0.1.13"
-    "@vercel/express" "0.1.18"
+    "@vercel/express" "0.1.19"
     "@vercel/fastify" "0.1.16"
     "@vercel/fun" "1.2.0"
     "@vercel/go" "3.2.4"
@@ -19258,7 +19387,7 @@ vercel@49.1.2:
     "@vercel/nestjs" "0.2.17"
     "@vercel/next" "4.15.8"
     "@vercel/node" "5.5.15"
-    "@vercel/python" "6.1.1"
+    "@vercel/python" "6.1.2"
     "@vercel/redwood" "2.4.6"
     "@vercel/remix-builder" "5.5.6"
     "@vercel/ruby" "2.2.3"
