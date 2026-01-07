@@ -5986,13 +5986,13 @@
   resolved "https://registry.yarnpkg.com/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.7.13.tgz#6d2643f810c30c9561bbd8348a2fb4aa0edde4f9"
   integrity sha512-tI0+FTntE3BD0UxhTP12F/iTtkeMK+qh72/2aSxPZnTlOcMR9CTJid8CdppbSjj9wenq7PNcqScLtpPENH3Lvg==
 
-"@vercel/backends@0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@vercel/backends/-/backends-0.0.17.tgz#1229ab2840c129e2690d11f090b8697ea8d373a1"
-  integrity sha512-T1wTYvBbOuSStMM3GO2YK39YOZaCsT8GpkSOP0+3Ya9MO7qkOsOTIkzIzMY4SRO1e1CiVqqlbkGgwsGirgc6mA==
+"@vercel/backends@0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@vercel/backends/-/backends-0.0.18.tgz#c3c1cfa70906c0c8a4a81c0e2934a8df94780f6c"
+  integrity sha512-z8URfnUNOJ+FE19gjK+GQ3kK8UjKhGaviTdD+DTBEwflJhm/6OmTKbc2EVR5t+3eiy8RFo9tOLNCcgKmPcUcRQ==
   dependencies:
-    "@vercel/cervel" "0.0.7"
-    "@vercel/introspection" "0.0.7"
+    "@vercel/cervel" "0.0.8"
+    "@vercel/introspection" "0.0.8"
     "@vercel/nft" "1.1.1"
     "@vercel/static-config" "3.1.2"
     fs-extra "11.1.0"
@@ -6014,10 +6014,10 @@
   resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-13.2.4.tgz#eedc4ab246ccd8f79b2f8e3423d935fb8073794c"
   integrity sha512-12m+8Z+wsxJUoWZ+JQqRk8v1O0ioJhGYWz+yStW8abuzfNz75QW2rRcbn0hSHuF8c7b3D2papmMdh94kSSYQEw==
 
-"@vercel/cervel@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@vercel/cervel/-/cervel-0.0.7.tgz#eaecdfd77b24ca86a5ab198d57476e45b3642dc4"
-  integrity sha512-x4AeBr6tiRO1QDK1T4DINtczdsedhPLnpOiwTuBUqhAs681Whf23elUrv2ibOXYeGQIWMcy1MlFh7wzac7E9RA==
+"@vercel/cervel@0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@vercel/cervel/-/cervel-0.0.8.tgz#ad183f9fd99a466b4f47107bd918bb7938c6c08e"
+  integrity sha512-66S6PoadEGvAeXIxTA/4hldDzW0JadpLzxZdfuj2K/e4BpfBWRTjSTIA2fi/r1JCIIl6l34hevhcvPAHkML/Zw==
   dependencies:
     execa "3.2.0"
     rolldown "1.0.0-beta.52"
@@ -6042,12 +6042,12 @@
   resolved "https://registry.yarnpkg.com/@vercel/error-utils/-/error-utils-2.0.3.tgz#72575bf3a3ff3e67f474364e24e753d113c5b79a"
   integrity sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ==
 
-"@vercel/express@0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@vercel/express/-/express-0.1.21.tgz#2dd1a0988511f91ce5c38157a5a7452ff3cfbc1d"
-  integrity sha512-RqeU4tG88sQfFAhZmAop+RWM3oGkQVgI82Al8kdbGO++5MYDGdSgl7U/G9gTFoXAU/cgREqG13LNyfZ/WkLLqw==
+"@vercel/express@0.1.22":
+  version "0.1.22"
+  resolved "https://registry.yarnpkg.com/@vercel/express/-/express-0.1.22.tgz#5c645b86a014507f3460709001f0665ab0905855"
+  integrity sha512-/MM6WHY0IBXRJNu8op1rR/vE3F3XzSd20IQFRuFWxm/ERBDeR3qAXNINkbWUB56i6AupzzyA67okIywgRSRR5w==
   dependencies:
-    "@vercel/cervel" "0.0.7"
+    "@vercel/cervel" "0.0.8"
     "@vercel/nft" "1.1.1"
     "@vercel/node" "5.5.16"
     "@vercel/static-config" "3.1.2"
@@ -6142,10 +6142,10 @@
     "@vercel/static-config" "3.1.2"
     ts-morph "12.0.0"
 
-"@vercel/introspection@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@vercel/introspection/-/introspection-0.0.7.tgz#2cf5a6c4895d1e870ba0e62bd4e9118cf296cae8"
-  integrity sha512-8JjxYqUsdxHaExbUANvGftAJeRTxVGYwTmaV9KcOA+C3SVvYSUertnQeTgKiau0Fc2cHmxh9e0poLxs2N3gZ2A==
+"@vercel/introspection@0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@vercel/introspection/-/introspection-0.0.8.tgz#6d76739b99734b15769382f9437fd7208dfd41f9"
+  integrity sha512-iECaa8RlfXw+ldWZXH8V+NMxox62ggfNeBph2aFcYCujudcXjtjBrWwV9mMOeMysm8zTM9Ux0lb5oMXc/ivYTg==
   dependencies:
     path-to-regexp "8.3.0"
     zod "3.22.4"
@@ -19418,17 +19418,17 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@50.1.5:
-  version "50.1.5"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-50.1.5.tgz#de1d0c3ea07d2c3da267a013799a4a98c14ca6a1"
-  integrity sha512-ELp+Hpdw2DEwg7RPUTND5voE1RJexND+9TBrwN+wMJ4WzTVK5dx8dAZILVytMnmWFVLs1EWrfRRr317KM/WZew==
+vercel@50.1.6:
+  version "50.1.6"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-50.1.6.tgz#8894c84cd133fc392766ea126dea064e7b1e384d"
+  integrity sha512-ZLhmB6azYB6ZjARYDJWftzaxfGUgQ/zNc/s1jRUwovZMXG9jVZLoKzCLsd474f1+tMWWDSfKGQwNKA2YgiBzow==
   dependencies:
-    "@vercel/backends" "0.0.17"
+    "@vercel/backends" "0.0.18"
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "13.2.4"
     "@vercel/detect-agent" "1.0.0"
     "@vercel/elysia" "0.1.15"
-    "@vercel/express" "0.1.21"
+    "@vercel/express" "0.1.22"
     "@vercel/fastify" "0.1.18"
     "@vercel/fun" "1.2.0"
     "@vercel/go" "3.3.0"
