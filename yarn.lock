@@ -5924,10 +5924,10 @@
     srvx "0.8.9"
     tsx "4.21.0"
 
-"@vercel/detect-agent@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@vercel/detect-agent/-/detect-agent-1.0.0.tgz#acbfb2214fd8628dcc76c47ed62fdb10c893d25c"
-  integrity sha512-AIPgNkmtFcDgPCl+xvTT1ga90OL7OTX2RKM4zu0PMpwBthPfN2DpdHy10n3bh8K+CA22GDU0/ncjzprZsrk0sw==
+"@vercel/detect-agent@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@vercel/detect-agent/-/detect-agent-1.1.0.tgz#395980350942dad1125bb19cacc73c58de8921c1"
+  integrity sha512-Zfq6FbIcYl9gaAmVu6ROsqUiCNwpEj3Ljz/tMX5fl12Z95OFOxzf7vlO03WE5JBU/ri1tBDFHnW41dihMINOPQ==
 
 "@vercel/elysia@0.1.26":
   version "0.1.26"
@@ -6118,10 +6118,10 @@
     typescript5 "npm:typescript@5.9.3"
     undici "5.28.4"
 
-"@vercel/python@6.3.0":
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-6.3.0.tgz#787463fa98bacf45f34ae3a594091e981bac2d80"
-  integrity sha512-2Cmmet1087W39ENgm0VeEG87fwsOHNi1nFGGRPn6jNE5XEWJR0/dafkhRp77My0qbUxsG6F7Xg3+7hrRX4RAYA==
+"@vercel/python@6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-6.3.1.tgz#8fa66be76410635ce9b6d7599a388d96e7475e49"
+  integrity sha512-GpScOs86aq/o1dBn6ypxodM4Si39VedZ6sRSegZIYppu/GNjCHldo7+3Tx0cykQK8KW3yH3ruxp01qK6Qv0OcQ==
 
 "@vercel/redwood@2.4.9":
   version "2.4.9"
@@ -19122,15 +19122,15 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@50.4.11:
-  version "50.4.11"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-50.4.11.tgz#c1c75be6d2ed992ae2775ebaa24cd10f09e92001"
-  integrity sha512-FTtU+cw+pXjswITKQU5vOzelbHG1GcIQ64DkI7EwiQZO3wwgX9tpHJhg33bTgyRFR5S3iJtjdiLKHdqdHMi7ng==
+vercel@50.5.0:
+  version "50.5.0"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-50.5.0.tgz#fdcae6d0f1428d996776cefa50a3a6168843ec48"
+  integrity sha512-z9dfb0XNStSkW5KxCAf5YYDeH6bLzvDooU83viTLX0cDlX+MnWY5rY752kIZLXM5nyzLLhOKXjDrQxb7yYAaiA==
   dependencies:
     "@vercel/backends" "0.0.23"
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "13.2.15"
-    "@vercel/detect-agent" "1.0.0"
+    "@vercel/detect-agent" "1.1.0"
     "@vercel/elysia" "0.1.26"
     "@vercel/express" "0.1.33"
     "@vercel/fastify" "0.1.29"
@@ -19143,7 +19143,7 @@ vercel@50.4.11:
     "@vercel/nestjs" "0.2.30"
     "@vercel/next" "4.15.16"
     "@vercel/node" "5.5.27"
-    "@vercel/python" "6.3.0"
+    "@vercel/python" "6.3.1"
     "@vercel/redwood" "2.4.9"
     "@vercel/remix-builder" "5.5.9"
     "@vercel/ruby" "2.2.4"
