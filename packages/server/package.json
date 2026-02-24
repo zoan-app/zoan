@@ -32,7 +32,7 @@
     "class-validator": "0.14.3",
     "dotenv": "17.3.1",
     "@fastify/static": "9.0.0",
-    "graphql": "16.12.0",
+    "graphql": "16.13.0",
     "graphql-tools": "9.0.26",
     "mongoose": "5.10.18",
     "nestjs-typegoose": "7.1.38",
