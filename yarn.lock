@@ -6005,12 +6005,12 @@
   resolved "https://registry.yarnpkg.com/@vercel/detect-agent/-/detect-agent-1.2.1.tgz#10e91be8abffabde7fa7ae56947659acec3cdba3"
   integrity sha512-U/BJCltQSTFTHwaiCQQTQG3GonTbRoEewjV+OU2mMjcHLAoPOh6CP1SXA2XNmqiqI3c82nkRNJ7piZ14RqmTXw==
 
-"@vercel/elysia@0.1.57":
-  version "0.1.57"
-  resolved "https://registry.yarnpkg.com/@vercel/elysia/-/elysia-0.1.57.tgz#ee3a3487b2bb67829f3df2365673e560a8eaef35"
-  integrity sha512-T0z9Wi00+/ZaM6yPiisOJNFHiPP6Va9M2IKd0gWMa04cHfi8nG+eCEUlzMq+E3uUh1vsT32+y3QdfZiXNC07Tw==
+"@vercel/elysia@0.1.58":
+  version "0.1.58"
+  resolved "https://registry.yarnpkg.com/@vercel/elysia/-/elysia-0.1.58.tgz#756b7eeb4f20491a81699fdb1932979bbd5beee6"
+  integrity sha512-BzFkgmOqIFkRT+JQ2G0AVD1+AfVHOOpkAoFQs8S+7Nlzim32CzDmLznMOeMskNTk0WuKw+v/nAtrZ7OyG/6t1Q==
   dependencies:
-    "@vercel/node" "5.6.24"
+    "@vercel/node" "5.7.0"
     "@vercel/static-config" "3.2.0"
 
 "@vercel/error-utils@2.0.3":
@@ -6018,26 +6018,26 @@
   resolved "https://registry.yarnpkg.com/@vercel/error-utils/-/error-utils-2.0.3.tgz#72575bf3a3ff3e67f474364e24e753d113c5b79a"
   integrity sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ==
 
-"@vercel/express@0.1.67":
-  version "0.1.67"
-  resolved "https://registry.yarnpkg.com/@vercel/express/-/express-0.1.67.tgz#d4bf094dc5abfe44a134053917e3e5a1e991c579"
-  integrity sha512-Q1xAvXiGxw/XNxMOSzbnUclbbf/jCpxdWHD0iqJ6FNiw/nJiDEHOI3wp3d4LFDBOvm4PATD35NekKLbbTynieA==
+"@vercel/express@0.1.68":
+  version "0.1.68"
+  resolved "https://registry.yarnpkg.com/@vercel/express/-/express-0.1.68.tgz#d79b0eb1ba008aeddc79ca86369da11b3e83cd87"
+  integrity sha512-edkVDupYjCSiFjNcg2g1AjM/UTE/CtKvHMJfc46tTaGw9O63TODmRIgWYW2yonXIaFhYTmoCD8MxDiIrq4rdTg==
   dependencies:
     "@vercel/cervel" "0.0.42"
     "@vercel/nft" "1.5.0"
-    "@vercel/node" "5.6.24"
+    "@vercel/node" "5.7.0"
     "@vercel/static-config" "3.2.0"
     fs-extra "11.1.0"
     path-to-regexp "8.3.0"
     ts-morph "12.0.0"
     zod "3.22.4"
 
-"@vercel/fastify@0.1.60":
-  version "0.1.60"
-  resolved "https://registry.yarnpkg.com/@vercel/fastify/-/fastify-0.1.60.tgz#5adef0c7ea4e0e2477f49246ced669daa4058a24"
-  integrity sha512-UMnPdvflT+o+1+3nohlH/wxTndT7zU57ZVCzG0vj8K9hCJay7u5I9sJHv6yU94jt5NxWM3fnpmfGqoj4Jkh4AQ==
+"@vercel/fastify@0.1.61":
+  version "0.1.61"
+  resolved "https://registry.yarnpkg.com/@vercel/fastify/-/fastify-0.1.61.tgz#aaeedae4ffc25d70f54e4dc01250396bee17df21"
+  integrity sha512-/2RNFrCFQurwEd1arkmfuL9BXzOAGw+IuB/1cFqBUnapSw6teMGwBXvNggxMWW4OLQXBiv5NEDuW8HWlbdZ+Ow==
   dependencies:
-    "@vercel/node" "5.6.24"
+    "@vercel/node" "5.7.0"
     "@vercel/static-config" "3.2.0"
 
 "@vercel/fun@1.3.0":
@@ -6087,21 +6087,21 @@
   resolved "https://registry.yarnpkg.com/@vercel/go/-/go-3.4.7.tgz#8ac9a1a4ba70801fe34a5aea4c101829d7163023"
   integrity sha512-BPFHPiOeq8QSt87R0KXE+V2b5K7vlKna/NRrEggAin4qtf2XHc2R5Iq/rrIZtj8sUF5LJegCbACGBB+PFjmnzQ==
 
-"@vercel/h3@0.1.66":
-  version "0.1.66"
-  resolved "https://registry.yarnpkg.com/@vercel/h3/-/h3-0.1.66.tgz#a9ad96eba9ec3bf9fdef29d387be0d6227e385ae"
-  integrity sha512-OeCBwMTawcle6Bcv7hgHM3J7EdWdqWVh0UXvh0Up/qfCoJWilUHEQ0jCUKUOyXbrefftIA3ezpuh6984bC1UGg==
+"@vercel/h3@0.1.67":
+  version "0.1.67"
+  resolved "https://registry.yarnpkg.com/@vercel/h3/-/h3-0.1.67.tgz#b41019f5d8491e7762e7b66bbac5e4391709488a"
+  integrity sha512-trvNO2CHLyfBc1+bBPmm9Rh/J5WWuGO8kBHSe/FBK6ednxPp/TrDziFgdeeyp4Xi6mh1HdbTiYappL4lHkOPFA==
   dependencies:
-    "@vercel/node" "5.6.24"
+    "@vercel/node" "5.7.0"
     "@vercel/static-config" "3.2.0"
 
-"@vercel/hono@0.2.60":
-  version "0.2.60"
-  resolved "https://registry.yarnpkg.com/@vercel/hono/-/hono-0.2.60.tgz#5bcfa70e5c3c0c48b033e5dee7a634dcc038f906"
-  integrity sha512-wf5EEHzcss0kUahfsvMa07daxtOnrtGeqSi8JLZoHRTvcZIIzsdakFD7iW7EDKiEDjN6vcaqJnjDWnA8zxLC2g==
+"@vercel/hono@0.2.61":
+  version "0.2.61"
+  resolved "https://registry.yarnpkg.com/@vercel/hono/-/hono-0.2.61.tgz#475268e37bdb122d4bde1426c6eabb6707314741"
+  integrity sha512-3Ixh2mPboZBxU3DqzxmjqHo4MEpHlROH1bmMa2oYmLH3CDRnNzAezrPeSITuzPmcbRX7uQXLRwx+C3Vpqwy4vA==
   dependencies:
     "@vercel/nft" "1.5.0"
-    "@vercel/node" "5.6.24"
+    "@vercel/node" "5.7.0"
     "@vercel/static-config" "3.2.0"
     fs-extra "11.1.0"
     path-to-regexp "8.3.0"
@@ -6116,26 +6116,26 @@
     "@vercel/static-config" "3.2.0"
     ts-morph "12.0.0"
 
-"@vercel/koa@0.1.40":
-  version "0.1.40"
-  resolved "https://registry.yarnpkg.com/@vercel/koa/-/koa-0.1.40.tgz#238ec4419bfff7c21b344368131344ff6e95efc7"
-  integrity sha512-F+ZqZiI+bSnhC52akzibM9nUKKzX//opjMCuD+Kz77L3FI5oLCh/qDauyf6QhqUlTITk8femZY5/ZpESP70NGg==
+"@vercel/koa@0.1.41":
+  version "0.1.41"
+  resolved "https://registry.yarnpkg.com/@vercel/koa/-/koa-0.1.41.tgz#17e68ff159df0e6de656fb73951e739d062ded3d"
+  integrity sha512-/uahN+0vo5C7jZAMSPWWNgGw1F0Q0Mss+wjQPfSQgAlWqgdEtaUrQWOZZ/V8tASbGYoV2Drnj0WAEXktZ4pPnQ==
   dependencies:
-    "@vercel/node" "5.6.24"
+    "@vercel/node" "5.7.0"
     "@vercel/static-config" "3.2.0"
 
-"@vercel/nestjs@0.2.61":
-  version "0.2.61"
-  resolved "https://registry.yarnpkg.com/@vercel/nestjs/-/nestjs-0.2.61.tgz#78205214b138a8787cf67d930b68a76d2c0e797a"
-  integrity sha512-zjEZShe9BtUPzSCioYlo3/rhjENpKnJfT7SYL1DdUVIKsR3zWa8cz51omGw0pATHgSVg2zDjCtSo31VwbVk57A==
+"@vercel/nestjs@0.2.62":
+  version "0.2.62"
+  resolved "https://registry.yarnpkg.com/@vercel/nestjs/-/nestjs-0.2.62.tgz#d0e8acd6c47c9bcdaeb74951bfc280733c2da2af"
+  integrity sha512-AHHVpIH20Vswek9gM43Gb7+TNEmVT49odFExliZZkx+VbwDZcVDs0sahJRzhoEKqsoqoqWA0kc1AD5/0OeJcIQ==
   dependencies:
-    "@vercel/node" "5.6.24"
+    "@vercel/node" "5.7.0"
     "@vercel/static-config" "3.2.0"
 
-"@vercel/next@4.16.4":
-  version "4.16.4"
-  resolved "https://registry.yarnpkg.com/@vercel/next/-/next-4.16.4.tgz#31d671f09c30ca7bf23d058ff8738fb611e6c3c6"
-  integrity sha512-XZgB1uqwww/P1uXNjabYpgNNdqh+faXGoDbl1vrwWHytrJJq1ZbJRsRl9LaZNsxA4RAIhdLMUD670/WwHjNZvQ==
+"@vercel/next@4.16.5":
+  version "4.16.5"
+  resolved "https://registry.yarnpkg.com/@vercel/next/-/next-4.16.5.tgz#e52f502f5a0a8923a463085bbfcbba267dce0245"
+  integrity sha512-/GpHDBjUyS2QHMDDQcU9fRDoCk5+ep0oCJ26tO7hIBj0rlIqgYMljE/OgyPHl7xkYdpWMtkZVg0MYTIGDKTZWw==
   dependencies:
     "@vercel/nft" "1.5.0"
 
@@ -6157,10 +6157,10 @@
     picomatch "^4.0.2"
     resolve-from "^5.0.0"
 
-"@vercel/node@5.6.24":
-  version "5.6.24"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.6.24.tgz#99eae73a884376e4f1b2a8747d18d9fdf51ec8b6"
-  integrity sha512-Uv9zDfZJCRzXxlTszdvYS+4Q/nSzk0/CqIjehp/IgcODKZsLBTR7GiHcTcvRWVKDfYkMnpaFIR1LAdu95+U3AA==
+"@vercel/node@5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-5.7.0.tgz#7b8079a80dd87b14c1a5c6bcf9f3add9546bd2aa"
+  integrity sha512-7biBSf0RQHH66IR2eUGVjzmpiqiBF/063fVWsZrn460j5bP9iioGRzPOm9T0Xm/3ZMp77vu4ea8i4wMSfmM6lg==
   dependencies:
     "@edge-runtime/node-utils" "2.3.0"
     "@edge-runtime/primitives" "4.1.0"
@@ -19385,27 +19385,27 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@50.38.2:
-  version "50.38.2"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-50.38.2.tgz#2727886d20a2f044161ef4b235990b4dc0514876"
-  integrity sha512-xLdUm9ZZIGQgiLOPEiTbz87dZ/o/yaLyt/bqZM0NHgPnrgh8FqJeHLQ9GlVToLyIcQ4qJQpnd7HFA23d6pdTCg==
+vercel@50.38.3:
+  version "50.38.3"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-50.38.3.tgz#3d402a89b1fd3594d5687658614cbec01f2cb87d"
+  integrity sha512-2CqV6W6liER6D84ZTk/LfkZhS147kHp0tYS89JYOX2FfbZj8f3tqMfOw4/u/imBq0ZS2Go8OdOkh+3UsXj/lHA==
   dependencies:
     "@vercel/backends" "0.0.55"
     "@vercel/blob" "2.3.0"
     "@vercel/build-utils" "13.12.2"
     "@vercel/detect-agent" "1.2.1"
-    "@vercel/elysia" "0.1.57"
-    "@vercel/express" "0.1.67"
-    "@vercel/fastify" "0.1.60"
+    "@vercel/elysia" "0.1.58"
+    "@vercel/express" "0.1.68"
+    "@vercel/fastify" "0.1.61"
     "@vercel/fun" "1.3.0"
     "@vercel/go" "3.4.7"
-    "@vercel/h3" "0.1.66"
-    "@vercel/hono" "0.2.60"
+    "@vercel/h3" "0.1.67"
+    "@vercel/hono" "0.2.61"
     "@vercel/hydrogen" "1.3.6"
-    "@vercel/koa" "0.1.40"
-    "@vercel/nestjs" "0.2.61"
-    "@vercel/next" "4.16.4"
-    "@vercel/node" "5.6.24"
+    "@vercel/koa" "0.1.41"
+    "@vercel/nestjs" "0.2.62"
+    "@vercel/next" "4.16.5"
+    "@vercel/node" "5.7.0"
     "@vercel/prepare-flags-definitions" "0.2.1"
     "@vercel/python" "6.29.0"
     "@vercel/redwood" "2.4.12"
