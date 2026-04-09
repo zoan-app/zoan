@@ -4529,12 +4529,12 @@
     jsonc-parser "3.3.1"
     pluralize "8.0.0"
 
-"@nestjs/serve-static@5.0.4":
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/@nestjs/serve-static/-/serve-static-5.0.4.tgz#cfad2607972de8af16286975714d3f1dc6c9bb3d"
-  integrity sha512-3kO1M9D3vsPyWPFardxIjUYeuolS58PnhCoBTkS7t3BrdZFZCKHnBZ15js+UOzOR2Q6HmD7ssGjLd0DVYVdvOw==
+"@nestjs/serve-static@5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@nestjs/serve-static/-/serve-static-5.0.5.tgz#4bef0d71ed320a9d408fe8ed044ce388f941d45d"
+  integrity sha512-AhYx3N9aMwR2cb0w5Nlb5nHNYiAcF74ea/D/xna+PxlXwjmwGN/PpC/5fuMtOwmPBMgOTxNPOnB8C9LDZBSgyw==
   dependencies:
-    path-to-regexp "8.3.0"
+    path-to-regexp "8.4.2"
 
 "@nestjs/testing@11.1.18":
   version "11.1.18"
