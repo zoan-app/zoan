@@ -33,7 +33,7 @@
     "dotenv": "17.4.1",
     "@fastify/static": "9.1.0",
     "graphql": "16.13.2",
-    "graphql-tools": "9.0.26",
+    "graphql-tools": "9.0.27",
     "mongoose": "5.10.18",
     "nestjs-typegoose": "7.1.38",
     "reflect-metadata": "0.2.2",
