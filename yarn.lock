@@ -4462,10 +4462,10 @@
     path-to-regexp "8.4.2"
     tslib "2.8.1"
 
-"@nestjs/graphql@13.4.1":
-  version "13.4.1"
-  resolved "https://registry.yarnpkg.com/@nestjs/graphql/-/graphql-13.4.1.tgz#af59ddbe753fc66c04bfb06acef291202e6e39ba"
-  integrity sha512-oULTVBSMZXeKb/eMDyY9xf4PnfWLY8Z1n9ZxGo1B5oP85LMxkMb+8konxnNHPUglYpeLmLWxDNeI9CLj+fjClw==
+"@nestjs/graphql@13.4.2":
+  version "13.4.2"
+  resolved "https://registry.yarnpkg.com/@nestjs/graphql/-/graphql-13.4.2.tgz#d16c2fe5f12379ea7d6fdced2d061562bc12db99"
+  integrity sha512-MIaMIaV9o3Tj2LsoGGwhISTZVXEIfDK8rDXplE3tSYULj6cXSY1dofOSLMF/aY+BZLwlrN4BUUowgu8qNdDZFg==
   dependencies:
     "@graphql-tools/merge" "9.1.9"
     "@graphql-tools/schema" "10.0.33"
