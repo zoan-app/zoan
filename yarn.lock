@@ -6340,18 +6340,20 @@
     execa "5"
     smol-toml "1.5.2"
 
-"@vercel/sandbox@1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@vercel/sandbox/-/sandbox-1.9.0.tgz#258ce98880d987b087f7b0170dd954c7a0d255de"
-  integrity sha512-zgr1ad0tkT1xZn/8Vxo60wOUOLqMAVGo4WqJQ8/UDcUtWynNJsBjI2tiMdWZrAo9EKH1MIqEzJNkcclF0UT1EQ==
+"@vercel/sandbox@2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@vercel/sandbox/-/sandbox-2.1.1.tgz#066ceea3267575ec766f240ba16ac72e5ebf14d8"
+  integrity sha512-gKhW+YlvU15Qxya7jQKByB+sqA1dWat5zx/rvxT52E3Ryg9MAIXgqD5wd1d+CoJDbdHL26gIOcksTZY5sFpplA==
   dependencies:
     "@vercel/oidc" "3.2.0"
+    "@workflow/serde" "4.1.0-beta.2"
     async-retry "1.3.3"
+    jose "6.2.3"
     jsonlines "0.1.1"
     ms "2.1.3"
     picocolors "^1.1.1"
     tar-stream "3.1.7"
-    undici "^7.16.0"
+    undici "^7.27.1"
     xdg-app-paths "5.1.0"
     zod "3.24.4"
 
@@ -6622,6 +6624,11 @@
   integrity sha512-6cJoRLP6/0Bf4k2i36R1f9lisId6fIYEOQ5CUHSPRCmiJfo+HGAm8P/5Qoy28lvYngw3SKBLJ5YqtGWjUaMA6g==
   dependencies:
     tslib "^2.6.3"
+
+"@workflow/serde@4.1.0-beta.2":
+  version "4.1.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@workflow/serde/-/serde-4.1.0-beta.2.tgz#ac10377f50e9f83dbf4994edd4fe9c940bcef6a9"
+  integrity sha512-8kkeoQKLDaKXefjV5dbhBj2aErfKp1Mc4pb6tj8144cF+Em5SPbyMbyLCHp+BVrFfFVCBluCtMx+jjvaFVZGww==
 
 "@wry/caches@^1.0.0":
   version "1.0.1"
@@ -13888,6 +13895,11 @@ jose@5.9.6:
   resolved "https://registry.yarnpkg.com/jose/-/jose-5.9.6.tgz#77f1f901d88ebdc405e57cce08d2a91f47521883"
   integrity sha512-AMlnetc9+CV9asI19zHmrgS/WYsWUwCn2R7RzlbJWD7F9eWYUTGyBmU9o6PxngtLGOiDGPRu+Uc4fhKzbpteZQ==
 
+jose@6.2.3:
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-6.2.3.tgz#0975197ad973251221c658a3cddc4b951a250c2d"
+  integrity sha512-YYVDInQKFJfR/xa3ojUTl8c2KoTwiL1R5Wg9YCydwH0x0B9grbzlg5HC7mMjCtUJjbQ/YnGEZIhI5tCgfTb4Hw==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -17362,12 +17374,13 @@ safe-stable-stringify@^2.3.1:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sandbox@2.5.6:
-  version "2.5.6"
-  resolved "https://registry.yarnpkg.com/sandbox/-/sandbox-2.5.6.tgz#b70ed663496b32b5fa89a9a9fc03f65e97a5811b"
-  integrity sha512-tnFr7nyiuEhsAGb+xy60SDbij0790X+FgDljh3J/2HaRM6yQgNJkQKHbDH8ld7mR+PozXGgEfJ2Dc/5OyFnwsg==
+sandbox@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/sandbox/-/sandbox-3.1.2.tgz#08fb53e952c1d1c0beb968ab332ab8dfccd6a5f4"
+  integrity sha512-g93rma0Z9Aa6EoTktzYnGZmQvMzm7j73BekJIMwmkdWR5uryZ+6hBCADtd3JKGAB27k+ubnG7HHsZqtscAMzIQ==
   dependencies:
-    "@vercel/sandbox" "1.9.0"
+    "@vercel/sandbox" "2.1.1"
+    async-retry "1.3.3"
     debug "^4.4.1"
     zod "^4.1.1"
 
@@ -19426,10 +19439,10 @@ undici@^6.23.0:
   resolved "https://registry.yarnpkg.com/undici/-/undici-6.23.0.tgz#7953087744d9095a96f115de3140ca3828aff3a4"
   integrity sha512-VfQPToRA5FZs/qJxLIinmU59u0r7LXqoJkCzinq3ckNJp3vKEh7jTWN589YQ5+aoAC/TGRLyJLCPKcLQbM8r9g==
 
-undici@^7.16.0:
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-7.24.7.tgz#af9535341bbe80625ca403a02418477a5c6a8760"
-  integrity sha512-H/nlJ/h0ggGC+uRL3ovD+G0i4bqhvsDOpbDv7At5eFLlj2b41L8QliGbnl2H7SnDiYhENphh1tQFJZf+MyfLsQ==
+undici@^7.27.1:
+  version "7.27.2"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-7.27.2.tgz#f8fae968ee68377cfc61713d9cd152773716804f"
+  integrity sha512-uZsKNuzQxDMUY6M3pIMvy5tvlGmtq8XJ2oLAkfRKGNu+1VQAIvLy2xIVG5ATZl5wDXl/tddByAWCizRbOme+TA==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
@@ -19632,10 +19645,10 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@54.10.2:
-  version "54.10.2"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-54.10.2.tgz#53e3044145f03b234fcafece4389e6e10a73cca2"
-  integrity sha512-hjbOkiU8jtBd/dBnmnuUlSsVYKCtobMCMY1pv3oYK1HfjPvlV/F+SRJMKKh4JyaR5koff8oF22SfhnuJutoDFw==
+vercel@54.10.3:
+  version "54.10.3"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-54.10.3.tgz#87b5c06a6ba5012aca235b87bab792f6e2f05f1c"
+  integrity sha512-Jjc3ML/XQibvQUUN9+mKQjQI7q3qaOmYeLF3xrxNv97swAEHoFFwFqWa3nHTs0V4sPerAMf5aJ/HLRi+Y6Vgmg==
   dependencies:
     "@vercel/backends" "0.8.9"
     "@vercel/blob" "2.4.0"
@@ -19668,7 +19681,7 @@ vercel@54.10.2:
     jose "5.9.6"
     luxon "^3.4.0"
     proxy-agent "6.4.0"
-    sandbox "2.5.6"
+    sandbox "3.1.2"
     smol-toml "1.5.2"
     zod "4.1.11"
 
