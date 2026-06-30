@@ -6053,13 +6053,14 @@
   resolved "https://registry.yarnpkg.com/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.7.13.tgz#6d2643f810c30c9561bbd8348a2fb4aa0edde4f9"
   integrity sha512-tI0+FTntE3BD0UxhTP12F/iTtkeMK+qh72/2aSxPZnTlOcMR9CTJid8CdppbSjj9wenq7PNcqScLtpPENH3Lvg==
 
-"@vercel/backends@0.8.20":
-  version "0.8.20"
-  resolved "https://registry.yarnpkg.com/@vercel/backends/-/backends-0.8.20.tgz#bf878980b9aaa7be24df9e51e671269c956e87f9"
-  integrity sha512-zAWL6X+ZwNrDzecTDBekcUvHH0NoHfFzyun/o4QjsuLVu1MTzyYs5vpubHP405+SbpCXoruZfssgYzzmLZOtcg==
+"@vercel/backends@0.8.21":
+  version "0.8.21"
+  resolved "https://registry.yarnpkg.com/@vercel/backends/-/backends-0.8.21.tgz#1666ca60399f86a81754ffeab66704df1a4834f3"
+  integrity sha512-c0mKXgfxMyb44+kMGbNoQJomf37QAfd6yL/2imhAnAChR1Ddkxk6uwbrOC89LcG+QmN2ZoEFUSJdMInSfreztw==
   dependencies:
     "@vercel/build-utils" "13.32.2"
     "@vercel/nft" "1.10.0"
+    "@vercel/static-config" "3.4.0"
     execa "3.2.0"
     fs-extra "11.1.0"
     get-port "5.1.1"
@@ -6068,6 +6069,7 @@
     resolve.exports "2.0.3"
     rolldown "1.0.0-rc.1"
     srvx "0.11.16"
+    ts-morph "12.0.0"
     tsx "4.21.0"
     zod "3.22.4"
 
@@ -6091,12 +6093,12 @@
     cjs-module-lexer "1.2.3"
     es-module-lexer "1.5.0"
 
-"@vercel/cervel@0.1.28":
-  version "0.1.28"
-  resolved "https://registry.yarnpkg.com/@vercel/cervel/-/cervel-0.1.28.tgz#e7150ed5bf75432018496a99a30837884c8921b5"
-  integrity sha512-ISPxpP0X9nxoQZ9kWeLRx+c1nCe0EEzSTVwEQ19MjKUXSP2RYGqInq8V993N4VkQ8jfWmnOC0Kf3C0Nw516i8w==
+"@vercel/cervel@0.1.29":
+  version "0.1.29"
+  resolved "https://registry.yarnpkg.com/@vercel/cervel/-/cervel-0.1.29.tgz#421c0f105a936e84897dc92e90448dd6208b2c51"
+  integrity sha512-tjwW6bj1g9qwOO0y/3WTGiarvyWmsWOtLkPB0esFmnscMZCxRqzNh0WJqrbbWxMdC5A2LXzDDHuZ4sXpRg4Tqw==
   dependencies:
-    "@vercel/backends" "0.8.20"
+    "@vercel/backends" "0.8.21"
 
 "@vercel/cli-auth@0.3.0":
   version "0.3.0"
@@ -6140,12 +6142,12 @@
   resolved "https://registry.yarnpkg.com/@vercel/error-utils/-/error-utils-2.2.0.tgz#3aaf43cf463c37fc097e016265098c4e85a66fc6"
   integrity sha512-WFWiRxfPzoYWYifaj4thSKvAaZZwUOqD4k5GINRIgZgCiS2E3iAJbWbIsIZmkQdTecWFHcWGA6q48CjisgpOBA==
 
-"@vercel/express@0.1.111":
-  version "0.1.111"
-  resolved "https://registry.yarnpkg.com/@vercel/express/-/express-0.1.111.tgz#15471450fad410b247c3f7264b4623a18136e91f"
-  integrity sha512-lyLDvmMbca2H0pKMsW/tau3FsbpTlIlMe+JeNWLeL/T0znF4JpT4YFak/pUKwomW+v7UTKR7BTujPrsiYxqA8g==
+"@vercel/express@0.1.112":
+  version "0.1.112"
+  resolved "https://registry.yarnpkg.com/@vercel/express/-/express-0.1.112.tgz#3037d6ae3c81f9c46074aec2bba26967366636bb"
+  integrity sha512-Xpw1/+G/NpWYzBh3HqT+npYKo+yrLhSKC+hekBYCoddfDjSTevF1hQSbdEo7oHbZbgQo7h5Rb2vWVQ404zSmkA==
   dependencies:
-    "@vercel/cervel" "0.1.28"
+    "@vercel/cervel" "0.1.29"
     "@vercel/nft" "1.10.0"
     "@vercel/node" "5.8.22"
     "@vercel/static-config" "3.4.0"
@@ -19675,12 +19677,12 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@54.18.5:
-  version "54.18.5"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-54.18.5.tgz#ba3fbeccc94db6e5fa10b3fb42ae26ef637672c2"
-  integrity sha512-a7ts2raj/Wtv27kC7kiOo8Zn3Gr+q2F1CJWqiOmtWuZXRRgY3MHG9n6r5UXIV2cJ85IZSZGg8ENat2gAUTDkCQ==
+vercel@54.18.6:
+  version "54.18.6"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-54.18.6.tgz#be3fb14776d5b34d105cd62dd3dd8f79ae32f577"
+  integrity sha512-0rpxXpEtYvpyqzV80VHDSWw2r+KopWCUkPF43JY2TWKGCbi3Kh0Cdnt2vZFXAqLFHSGS83hnS0S/RHptQcyELQ==
   dependencies:
-    "@vercel/backends" "0.8.20"
+    "@vercel/backends" "0.8.21"
     "@vercel/blob" "2.4.0"
     "@vercel/build-utils" "13.32.2"
     "@vercel/cli-auth" "0.3.0"
@@ -19688,7 +19690,7 @@ vercel@54.18.5:
     "@vercel/container" "0.0.4"
     "@vercel/detect-agent" "1.2.3"
     "@vercel/elysia" "0.1.98"
-    "@vercel/express" "0.1.111"
+    "@vercel/express" "0.1.112"
     "@vercel/fastify" "0.1.101"
     "@vercel/fun" "1.3.0"
     "@vercel/go" "3.10.2"
