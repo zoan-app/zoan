@@ -41,8 +41,8 @@
   },
   "devDependencies": {
     "@types/color": "4.2.1",
-    "@typescript-eslint/eslint-plugin": "8.62.1",
-    "@typescript-eslint/parser": "8.62.1",
+    "@typescript-eslint/eslint-plugin": "8.63.0",
+    "@typescript-eslint/parser": "8.63.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-typescript": "18.0.0",
     "eslint-config-prettier": "10.1.8",
