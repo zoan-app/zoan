@@ -3238,14 +3238,15 @@
     http-errors "^2.0.0"
     mime "^3"
 
-"@fastify/static@9.3.0":
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-9.3.0.tgz#9f1cba8dafca7c1178110e5b29bae6e81b1ce0a9"
-  integrity sha512-9YMYRpCOtMBrqKYWcqiw7ykOrn4D0jogHpJrFS0KGeSuOwzKMM5/mjj7B0CFLVoQ6htqKYw//Zs7APn9DBq05w==
+"@fastify/static@10.1.0":
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-10.1.0.tgz#7818cfdded25f6ea38b5f17194e27bdf0825734f"
+  integrity sha512-iK/8TvRM/EgNOyQL+EpWu+x3aR6o4GWt+UI+27zmE7w6t/6d80mXqOtWLdEKQ13vL/g1Jry0ae2icj6GP7tGzA==
   dependencies:
     "@fastify/accept-negotiator" "^2.0.0"
+    "@fastify/error" "^4.0.0"
     "@fastify/send" "^4.0.0"
-    content-disposition "^1.0.1"
+    content-disposition "^2.0.1"
     fastify-plugin "^6.0.0"
     fastq "^1.17.1"
     glob "^13.0.0"
@@ -8740,10 +8741,10 @@ content-disposition@^1.0.0:
   dependencies:
     safe-buffer "5.2.1"
 
-content-disposition@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/content-disposition/-/content-disposition-1.0.1.tgz#a8b7bbeb2904befdfb6787e5c0c086959f605f9b"
-  integrity sha512-oIXISMynqSqm241k6kcQ5UwttDILMK4BiurCfGEREw6+X9jkkpEe5T9FZaApyLGGOnFuyMWZpdolTXMtvEJ08Q==
+content-disposition@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/content-disposition/-/content-disposition-2.0.1.tgz#88a75c7a52ef9c407c96035fe83a66939c2a4dc9"
+  integrity sha512-e+H0ZXHSWYrENhQzw1LPuP4oF5MzVKmDU6d3hxlvaPEYLLg62MxtQNPRx4SYSuYJSBUgnQIG4HIN2tEtNv7Dog==
 
 content-type@1.0.4, content-type@~1.0.4:
   version "1.0.4"
