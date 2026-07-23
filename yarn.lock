@@ -6428,10 +6428,10 @@
     smol-toml "1.5.2"
     zod "3.22.4"
 
-"@vercel/python@6.51.0":
-  version "6.51.0"
-  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-6.51.0.tgz#9757bbb2f22839b527b987fdb3e687514ec40124"
-  integrity sha512-81n05giwRNXwp7UZQbDoSHv8XhQTsFRfQnlFSaITmsWA8MVl1t1XJrrHSNswiRm+hceWzHxBZxE0ysfWXs4AQA==
+"@vercel/python@6.51.1":
+  version "6.51.1"
+  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-6.51.1.tgz#6ebe1e74f62d019e93f7e995c055d6bc9c243303"
+  integrity sha512-S30y6HxR0UKCckjCQsY7sVZaYN9aZLsKLVtfBkjV6W49zrPmSy11GCJlyM1fbMcDSvCd6qLfa3iCIiKOcO5okw==
   dependencies:
     "@vercel/python-analysis" "0.11.1"
 
@@ -19537,10 +19537,10 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@56.4.1:
-  version "56.4.1"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-56.4.1.tgz#ca0d73062be9b1fffce88c3915e0121763968430"
-  integrity sha512-+CIEa0qcKm1RNBRhOvpo2l/yz28LMKSDuGeAYGx4/EkYyR5VOrXJZYV52WvqVARcxBAbH3Un2RRin8YGXMlcNg==
+vercel@56.5.0:
+  version "56.5.0"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-56.5.0.tgz#0e57212d75c0d3d1e8c6053f0fcae995427985de"
+  integrity sha512-wAKpT8DFSbnwlgbS711fbvxGjOfQeb1n+NcaBaSC4onq9eJAjbPfERrjrKE4GDsV8dkoBo0627lp0QxbLCGFiw==
   dependencies:
     "@vercel/backends" "0.8.25"
     "@vercel/blob" "2.4.0"
@@ -19562,7 +19562,7 @@ vercel@56.4.1:
     "@vercel/next" "4.20.4"
     "@vercel/node" "5.8.26"
     "@vercel/prepare-flags-definitions" "0.3.0"
-    "@vercel/python" "6.51.0"
+    "@vercel/python" "6.51.1"
     "@vercel/redwood" "2.5.0"
     "@vercel/remix-builder" "5.9.1"
     "@vercel/ruby" "2.5.1"
