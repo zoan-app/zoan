@@ -6428,10 +6428,10 @@
     smol-toml "1.5.2"
     zod "3.22.4"
 
-"@vercel/python@6.55.1":
-  version "6.55.1"
-  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-6.55.1.tgz#dbe9f6ded64c20dcbca1b05a697f84c98ae2c9d2"
-  integrity sha512-5IaUnwvmfeziC+jdT7z8JFSZBU+ItffZG+EPVpF+zkl/H7FdiFwiCqZoIacIWI7GYX415uQTV8HBi6c06SX2Lw==
+"@vercel/python@6.55.2":
+  version "6.55.2"
+  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-6.55.2.tgz#d34d065e69d795e530f2afd4fa5d1550f228623c"
+  integrity sha512-cu1zgXkoZDMWPeUVJEaUzkm2ThvICl37EZD/EIfrVVNzAfo7ulVb0Hr/sUlz2G39CeQBkePf4zco/+DF8TDasw==
   dependencies:
     "@vercel/python-analysis" "0.13.1"
 
@@ -6506,6 +6506,26 @@
     ajv "8.6.3"
     json-schema-to-ts "1.6.4"
     ts-morph "12.0.0"
+
+"@vercel/vc-native-darwin-arm64@58.7.1":
+  version "58.7.1"
+  resolved "https://registry.yarnpkg.com/@vercel/vc-native-darwin-arm64/-/vc-native-darwin-arm64-58.7.1.tgz#84f75bff776e1b0c3dd1b3aad9ed75eb706b54f8"
+  integrity sha512-bNr+TPdR9lIWuPi74sQ1nKqxZcfNKzuP5w/lNZul2HiN8V4GgquwFU2RG/MhTjnFRP21HsZ4Vwg7oPLhCcPC1w==
+
+"@vercel/vc-native-darwin-x64@58.7.1":
+  version "58.7.1"
+  resolved "https://registry.yarnpkg.com/@vercel/vc-native-darwin-x64/-/vc-native-darwin-x64-58.7.1.tgz#f6d10903e998775da97ea93ea99e851ce3d27613"
+  integrity sha512-03MeJZ4HXJlyYDWVABtPmfcrcBeFcDIj+DHUgfpdYJNVhamnO77NazwXSFifMbhtBdH85JfuPtY5zQLkK8w7FQ==
+
+"@vercel/vc-native-linux-arm64@58.7.1":
+  version "58.7.1"
+  resolved "https://registry.yarnpkg.com/@vercel/vc-native-linux-arm64/-/vc-native-linux-arm64-58.7.1.tgz#c59f5a82f3808b826cb8125ae98b8d87f6d6fd28"
+  integrity sha512-4tFq+Qi0LZ1X6amhqr56OLfrx+m9qN1F15ShodFe5yguPT1aNqt+Z3WYN5VC/M3ue+rWYYA3qSHuG1729rW1ZA==
+
+"@vercel/vc-native-linux-x64@58.7.1":
+  version "58.7.1"
+  resolved "https://registry.yarnpkg.com/@vercel/vc-native-linux-x64/-/vc-native-linux-x64-58.7.1.tgz#62d19e7558d6dcbf8b0e53b8baa36b85052d2846"
+  integrity sha512-fm5B5Le0nsHl/DFe3gAOmlBPDWXcv3TYdue1fiWRfzlLx5dST6+A2R6SXU97rexmJvu/9HEnYllCqFBAaSQhAQ==
 
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"
@@ -19551,10 +19571,10 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@58.5.1:
-  version "58.5.1"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-58.5.1.tgz#18e1209e1dd01e25678ba3f09f13a62f4718172d"
-  integrity sha512-1BWBLm62nohVZ8D8c5qbp3qY/tAQQwE3HAvSM/B1Ez+OHLKdgS2G/nsPZEFLTc7x92ma2v4uAEe4L0OqMy/LFw==
+vercel@58.7.1:
+  version "58.7.1"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-58.7.1.tgz#6e506f965fe7f3ccf15fccb6f1d39365fa359200"
+  integrity sha512-m0ydcubquja7FM2xwQxKSIpPtlY8loAfb6n/uaWywSvxNYVcbZVayylzxorB0YPEF7FVXujWC8QnS/cJlCGhJw==
   dependencies:
     "@vercel/backends" "0.8.32"
     "@vercel/blob" "2.4.0"
@@ -19576,7 +19596,7 @@ vercel@58.5.1:
     "@vercel/next" "4.21.1"
     "@vercel/node" "5.9.5"
     "@vercel/prepare-flags-definitions" "0.3.0"
-    "@vercel/python" "6.55.1"
+    "@vercel/python" "6.55.2"
     "@vercel/redwood" "2.5.1"
     "@vercel/remix-builder" "5.9.2"
     "@vercel/ruby" "2.5.1"
@@ -19591,6 +19611,11 @@ vercel@58.5.1:
     smol-toml "1.5.2"
     undici "5.29.0"
     zod "4.1.11"
+  optionalDependencies:
+    "@vercel/vc-native-darwin-arm64" "58.7.1"
+    "@vercel/vc-native-darwin-x64" "58.7.1"
+    "@vercel/vc-native-linux-arm64" "58.7.1"
+    "@vercel/vc-native-linux-x64" "58.7.1"
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"
