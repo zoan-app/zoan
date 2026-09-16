@@ -4498,10 +4498,10 @@
   dependencies:
     "@tybys/wasm-util" "^0.10.3"
 
-"@nestjs/cli@12.0.1":
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/@nestjs/cli/-/cli-12.0.1.tgz#7dc0f88111bd8f6a395111d4872e1f67b2b17f19"
-  integrity sha512-1qp2CAXMZvib9OUpPkAJhzB0KVVuuxthAuMrD5+/jd0gT3+nqFPfUGH9qHuauZt2rfiXGrtJ+bCBKDBASW4HLA==
+"@nestjs/cli@12.0.3":
+  version "12.0.3"
+  resolved "https://registry.yarnpkg.com/@nestjs/cli/-/cli-12.0.3.tgz#79e6651a7e207a717c5104fc530fdcf789a27e6e"
+  integrity sha512-HofsPoiWsx6gZ7/IivaZJrgsq/3CTCb4FkCQzFu/Q3J2V+4xC7GYnit/HNB66EfuY8j3gWJCzasMKmF5VugmOA==
   dependencies:
     "@angular-devkit/core" "22.1.8"
     "@angular-devkit/schematics" "22.1.8"
@@ -4590,10 +4590,10 @@
     path-to-regexp "8.4.2"
     tslib "2.8.1"
 
-"@nestjs/schematics@12.0.2":
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/@nestjs/schematics/-/schematics-12.0.2.tgz#0b24019b9edfc21df79eae691c5ee4a7c6cc5a86"
-  integrity sha512-lq0rWV9STEN+PtE45m9lDL3ni8X2aPbzGKAi08G9D336Vm17j+jS7h9pYCocRszkJO41+uaKAEGgTWAvwbYIDQ==
+"@nestjs/schematics@12.0.3":
+  version "12.0.3"
+  resolved "https://registry.yarnpkg.com/@nestjs/schematics/-/schematics-12.0.3.tgz#18c5b22efc20258227706b1bcf459ec7b911f4f3"
+  integrity sha512-HGF66VyIlQt79yMnBzPfI6TU/dyf6yUg/Ja4DraL1uw6Tt+MsGK15LbZnfDODEErztckZYu2Y/FZoH2Fv14AwQ==
   dependencies:
     "@angular-devkit/core" "22.1.8"
     "@angular-devkit/schematics" "22.1.8"
