@@ -4515,10 +4515,10 @@
     path-to-regexp "8.4.2"
     tslib "2.8.1"
 
-"@nestjs/graphql@14.0.1":
-  version "14.0.1"
-  resolved "https://registry.yarnpkg.com/@nestjs/graphql/-/graphql-14.0.1.tgz#6012a50c0d8c96663dd70e89829eb97617cfe819"
-  integrity sha512-KLh/J9qZuHKokcCpzE9x4VXshjXhUYgKd8SOfgflPgChGFIAzkHy23YWqm8vU9SrTLGYOPlorzWcyTUuQeWvKA==
+"@nestjs/graphql@14.0.2":
+  version "14.0.2"
+  resolved "https://registry.yarnpkg.com/@nestjs/graphql/-/graphql-14.0.2.tgz#5e95c12aa4db350948785f2345f7679ce00ea124"
+  integrity sha512-9uEU36uey1loiltPlzdQ0LBI0TAD7xnbSsO+eVDkuz90jvWX6+vCkLt7HdxOGgtWBPBd+FgOJ+v0gZS1J06/8Q==
   dependencies:
     "@graphql-tools/merge" "9.2.4"
     "@graphql-tools/schema" "10.1.1"
