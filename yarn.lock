@@ -4399,10 +4399,10 @@
     path-to-regexp "8.4.2"
     tslib "2.8.1"
 
-"@nestjs/graphql@14.0.2":
-  version "14.0.2"
-  resolved "https://registry.yarnpkg.com/@nestjs/graphql/-/graphql-14.0.2.tgz#5e95c12aa4db350948785f2345f7679ce00ea124"
-  integrity sha512-9uEU36uey1loiltPlzdQ0LBI0TAD7xnbSsO+eVDkuz90jvWX6+vCkLt7HdxOGgtWBPBd+FgOJ+v0gZS1J06/8Q==
+"@nestjs/graphql@14.0.3":
+  version "14.0.3"
+  resolved "https://registry.yarnpkg.com/@nestjs/graphql/-/graphql-14.0.3.tgz#ea473da0061c1abd14216988466edab9b389398b"
+  integrity sha512-FN+5Mgeuu+/P5+fOaBuK/4Aircqhe/z5ptT0yyYVLw80j3wEzI3XEAlrdEzwDKJgdwrZncUyfjPkM+TJyLqdng==
   dependencies:
     "@graphql-tools/merge" "9.2.4"
     "@graphql-tools/schema" "10.1.1"
@@ -4411,11 +4411,11 @@
     chokidar "4.0.3"
     es-toolkit "1.52.0"
     graphql-tag "2.12.7"
-    graphql-ws "6.2.2"
+    graphql-ws "6.3.0"
     normalize-path "3.0.0"
     tinyglobby "0.2.17"
     tslib "2.8.1"
-    ws "8.21.3"
+    ws "8.22.0"
 
 "@nestjs/mapped-types@12.0.0":
   version "12.0.0"
@@ -11706,10 +11706,10 @@ graphql-tools@9.0.35:
   optionalDependencies:
     "@apollo/client" "~4.2.12"
 
-graphql-ws@6.2.2:
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-6.2.2.tgz#22b86541d76cd281d9a2a209674f532a9dfd12c6"
-  integrity sha512-QdZ4qhW2/efQZr40vme33cY78u1uqrYK9zY29acfD18aAmHfCMZsh5/4k9Ne99yOtdP9i4ilzmBDnczkTTXqkQ==
+graphql-ws@6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-6.3.0.tgz#9e8a04cf79ef977ee665e2966d97064110d97d98"
+  integrity sha512-qBAXPtFjWHF3QypDyNcBp8Rycd+rmofxUSJsu3bGI9QMMq7pImKBSLSg9hZ2ojIMbJ54T/LPjKBIeOUoJbNBnQ==
 
 graphql@17.0.2:
   version "17.0.2"
@@ -20084,10 +20084,10 @@ write-file-atomic@^5.0.1:
     imurmurhash "^0.1.4"
     signal-exit "^4.0.1"
 
-ws@8.21.3:
-  version "8.21.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.21.3.tgz#660b4faddb6a3e575c86e078126919961f4de4fc"
-  integrity sha512-201TZ/kPWxoPr/OKWjquZR1SWKXcvxdH+e1xrx89b3YbmzLMFCLfnaG1HFIgWzJOEWZ7MvpK++odZufgYR50Rw==
+ws@8.22.0:
+  version "8.22.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.22.0.tgz#40f16e1d7588ac0575041be5c49b8eb261c28e73"
+  integrity sha512-Ydggc987+RO0AnWtZ/7Wq9FtNvcrL1b/RO0ud9mWjUPgDrsAAwQSF51sm2hm1XofbU/4jkpGEsLFsZZxU+1DOg==
 
 ws@^7.4.5:
   version "7.4.5"
