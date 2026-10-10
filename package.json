@@ -19,12 +19,12 @@
     "concurrently": "10.0.6",
     "husky": "9.1.7",
     "lint-staged": "17.6.0",
-    "prettier": "3.9.9",
+    "prettier": "3.9.10",
     "typescript": "7.0.2",
     "vercel": "63.1.2"
   },
   "resolutions": {
-    "prettier": "3.9.9"
+    "prettier": "3.9.10"
   },
   "husky": {
     "hooks": {
