@@ -3229,10 +3229,10 @@
     "@fastify/forwarded" "^3.0.0"
     ipaddr.js "^2.1.0"
 
-"@fastify/send@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@fastify/send/-/send-4.0.0.tgz#401cbc7b5bf76b1f2f22bc340f90261e7ae60c24"
-  integrity sha512-eJjKDxyBnZ1iMHcmwYWG5wSA/yzVY/yrBy3Upd2+hc0omcK13tWeXRcbF28zEcbl+Z2kXEgMzJ5Rb/gXGWx9Rg==
+"@fastify/send@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@fastify/send/-/send-4.2.0.tgz#8f32fb6e6c73aa09b2eff029ed07a24b8a8771c6"
+  integrity sha512-B5Hr+IFsPbqJJQu6FHE2MFpnHfbPlCOVQUPTdm6PxCcilYGrEQsulbO0z9blgbjndIyLJwa2NWFIIjXpPhbwUg==
   dependencies:
     "@lukeed/ms" "^2.0.2"
     escape-html "~1.0.3"
@@ -3240,14 +3240,14 @@
     http-errors "^2.0.0"
     mime "^3"
 
-"@fastify/static@10.1.7":
-  version "10.1.7"
-  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-10.1.7.tgz#931e3dd79f161fed92cf2989c2451697ecceea17"
-  integrity sha512-7+lUiPRraENCiULgjhcqZyWSW6qnwIT87Is0u3c2Z3iGEEEGB45wJhYxzrSdzu12gHM4qcviEYcPEiCe4J6MCQ==
+"@fastify/static@10.1.8":
+  version "10.1.8"
+  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-10.1.8.tgz#8b0a298c3aaa906471626003cc38ee2fd146aebb"
+  integrity sha512-3CbgWOXJX8f46xxsuOgQl9h0lyQQiABMG40kxRF5PWJk4LyBW5m3mLZoW5glnm2TUTC1gVFCBnqOt5S6zIIIrg==
   dependencies:
     "@fastify/accept-negotiator" "^2.0.0"
     "@fastify/error" "^4.0.0"
-    "@fastify/send" "^4.0.0"
+    "@fastify/send" "^4.2.0"
     content-disposition "^3.0.0"
     fastify-plugin "^6.0.0"
     fastq "^1.17.1"
