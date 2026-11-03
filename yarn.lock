@@ -6524,16 +6524,16 @@
   dependencies:
     "@vercel/backends" "24.0.1"
 
-"@vercel/cli-auth@0.3.14":
-  version "0.3.14"
-  resolved "https://registry.yarnpkg.com/@vercel/cli-auth/-/cli-auth-0.3.14.tgz#1f46628ef7e8f386df5571c0c5cd1097a2c10b19"
-  integrity sha512-Kw0XvBCzsI9aKXfX8D4pmK9pTs4jNuAec8jT7aey0iHSkLG9WVYMo8o0YyOfTyC/sPSG63R3UMTSDWnlo9QLKw==
+"@vercel/cli-auth@0.3.15":
+  version "0.3.15"
+  resolved "https://registry.yarnpkg.com/@vercel/cli-auth/-/cli-auth-0.3.15.tgz#88e3c867e6dd87b3bc0008bf71f75bd63ca38412"
+  integrity sha512-iObcfLVw4tqIdPFul+SX9Ouz/ftqA9JUVAKO0JCZibHT4uiJvL2JzBOhRotjmMErLDn+hgt2gzkDZVBYfe5Xyg==
   dependencies:
     "@napi-rs/keyring" "1.2.0"
-    "@vercel/cli-config" "0.3.5"
+    "@vercel/cli-config" "0.3.6"
     async-listen "3.0.0"
     open "8.4.0"
-    zod "4.1.11"
+    zod "^4.6.6"
   optionalDependencies:
     koffi "3.3.3"
 
@@ -6553,13 +6553,13 @@
     xdg-app-paths "5"
     zod "4.1.11"
 
-"@vercel/cli-config@0.3.5":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@vercel/cli-config/-/cli-config-0.3.5.tgz#28f0852cd49e4ca31fe025cac078f4d39c4608cb"
-  integrity sha512-O7y3EFzHENSLtE/3fjM3vIRqDpFFhZor2dMcZaND4G1d88gQk9u8yBcZhRR9CKnBowgzXdl0qcXkuINI05I72w==
+"@vercel/cli-config@0.3.6":
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@vercel/cli-config/-/cli-config-0.3.6.tgz#3b3c743c0a47b0f69610eb17b1f442cad30a8cf0"
+  integrity sha512-jKsEWixJ+yMs2V29fqFxeDTQDglsgj7hvSXJf9pPmyYISvuTpTt45j/g47O6RWbe7aJycPbDOk7uKPHPA+LDYg==
   dependencies:
     xdg-app-paths "5"
-    zod "4.1.11"
+    zod "^4.6.6"
 
 "@vercel/cli-exec@1.0.1":
   version "1.0.1"
@@ -6568,16 +6568,16 @@
   dependencies:
     execa "5.1.1"
 
-"@vercel/cli-support@65.9.0":
-  version "65.9.0"
-  resolved "https://registry.yarnpkg.com/@vercel/cli-support/-/cli-support-65.9.0.tgz#2df78d9d6df91dd8ead2f3196318a71bee46918f"
-  integrity sha512-k12AkTLISlopZJTvMF1OUmxs9dkZz79I2QBcOhh8P99r/qH5h0HSeH6AfoAQUbQUCgii7l1fpEAP+XQgBwkBgQ==
+"@vercel/cli-support@65.10.0":
+  version "65.10.0"
+  resolved "https://registry.yarnpkg.com/@vercel/cli-support/-/cli-support-65.10.0.tgz#c839c603afdb664f8af5ebf7e16a413783f98d6e"
+  integrity sha512-HLxM6JtOEVPiaaqJVkzsnM4f61mzhi4WaVoO9fsi1+JRtuXpk3zZz2ZJkTrrxyczqUQJWe/2JTycCjQkaU5Bsg==
   dependencies:
     "@vercel/backends" "24.0.1"
     "@vercel/blob" "2.8.0"
     "@vercel/build-utils" "15.2.1"
-    "@vercel/cli-auth" "0.3.14"
-    "@vercel/cli-config" "0.3.5"
+    "@vercel/cli-auth" "0.3.15"
+    "@vercel/cli-config" "0.3.6"
     "@vercel/container" "24.0.1"
     "@vercel/detect-agent" "1.2.7"
     "@vercel/elysia" "24.0.1"
@@ -6593,8 +6593,8 @@
     "@vercel/next" "28.0.1"
     "@vercel/node" "29.0.1"
     "@vercel/prepare-flags-definitions" "0.6.1"
-    "@vercel/python" "30.0.1"
-    "@vercel/python-analysis" "0.15.2"
+    "@vercel/python" "30.1.0"
+    "@vercel/python-analysis" "0.15.3"
     "@vercel/redwood" "26.0.1"
     "@vercel/remix-builder" "29.0.1"
     "@vercel/ruby" "26.0.1"
@@ -6609,7 +6609,7 @@
     smol-toml "1.5.2"
     undici "5.29.0"
     uuid "14.0.1"
-    zod "4.1.11"
+    zod "4.6.7"
 
 "@vercel/container@24.0.1":
   version "24.0.1"
@@ -6829,10 +6829,10 @@
   resolved "https://registry.yarnpkg.com/@vercel/prepare-flags-definitions/-/prepare-flags-definitions-0.6.1.tgz#7254ed7a1e0e074d12f2a05a6e465d7c5f1be7a5"
   integrity sha512-0Z4ULrbGwiff425y7R4G+HKkgL/aRDPEzWL/iQvhxHJCO0OONst3d28XWKUIxRUQ1GF36/3K/W79CGzDzd7ovw==
 
-"@vercel/python-analysis@0.15.2":
-  version "0.15.2"
-  resolved "https://registry.yarnpkg.com/@vercel/python-analysis/-/python-analysis-0.15.2.tgz#91b0631548ec317ad1793dec14662fc846ecd1d0"
-  integrity sha512-2w+BXbaOPNO2NAz7mLNYeNnM4W+oZX78cePJWPxOzxGzaf5OOvBRYvT+zmgyw2Nw41XKTzy+N4QmzUzVAXtqag==
+"@vercel/python-analysis@0.15.3":
+  version "0.15.3"
+  resolved "https://registry.yarnpkg.com/@vercel/python-analysis/-/python-analysis-0.15.3.tgz#361499354c38d466383e4f5fb7de5cf56e9e12f4"
+  integrity sha512-WICWt4qXg4K6agFzfg0cv0o8dJILPiaGrqZpb/8IXWympfCrIh9f/mRMeSUlJDaaSS/tXmBt0Hj919CWccae9A==
   dependencies:
     "@bytecodealliance/preview2-shim" "0.17.6"
     fs-extra "11.1.1"
@@ -6841,12 +6841,12 @@
     smol-toml "1.5.2"
     zod "3.22.4"
 
-"@vercel/python@30.0.1":
-  version "30.0.1"
-  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-30.0.1.tgz#8c9a289941a94319409effcec59f54f43dcdf84a"
-  integrity sha512-h8AReYGHppFeSToq2c0Y6oIroztzNWHH/Cs6jDIfi4yDh1P5VurakI/oXBSDmHYh9EEIh21gUZ078e0jHysBVg==
+"@vercel/python@30.1.0":
+  version "30.1.0"
+  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-30.1.0.tgz#10b6e64d0d16f041f61243ce0caeb05ee1a01d9e"
+  integrity sha512-5FEcDWtvLYRk0nCbs/ZQj7ZaWdgiqjgFBgoFqmxJ6CP5t5uaNhMfQjlsjf1afQU1c0VliuK7J/lmJGVG8pKKuw==
   dependencies:
-    "@vercel/python-analysis" "0.15.2"
+    "@vercel/python-analysis" "0.15.3"
 
 "@vercel/redwood@26.0.1":
   version "26.0.1"
@@ -6923,35 +6923,45 @@
     oxc-parser "0.121.0"
     ts-morph "12.0.0"
 
-"@vercel/vc-native-darwin-arm64@65.9.0":
-  version "65.9.0"
-  resolved "https://registry.yarnpkg.com/@vercel/vc-native-darwin-arm64/-/vc-native-darwin-arm64-65.9.0.tgz#b8e4fbc1ce6cd33dfb32a656c2516629bbe70e74"
-  integrity sha512-N+Z9qCuB/YwczaWAcmVRqWuubNtDdRZsjwasxUCKAhDrstksRw9pbaIVh3StzcNOiqdAPqIuupG0cZDi9NDa3Q==
+"@vercel/vc-native-darwin-arm64@65.10.0":
+  version "65.10.0"
+  resolved "https://registry.yarnpkg.com/@vercel/vc-native-darwin-arm64/-/vc-native-darwin-arm64-65.10.0.tgz#f20f87ccf7861d722168b02f42c81665cb2c5003"
+  integrity sha512-HSQsnaz4sQHrQqzBRcdvMDH86qN/LW1W+12r1+4Kjap+mUveYrcGqdVdX4K64OsoM5ajyURGZ9VDGhobxq6/gw==
 
-"@vercel/vc-native-darwin-x64@65.9.0":
-  version "65.9.0"
-  resolved "https://registry.yarnpkg.com/@vercel/vc-native-darwin-x64/-/vc-native-darwin-x64-65.9.0.tgz#ce1cd1f5faa5e0d382effd9fc87da2002a5e9531"
-  integrity sha512-EFcgvCESOh+5XOt3o7ZJ5CKJkSXrP68SAoPHISHLRsK9wASsSsvlz5PwLyc+yhJeoFOWkGWlQUmgraJxfgtG4g==
+"@vercel/vc-native-darwin-x64@65.10.0":
+  version "65.10.0"
+  resolved "https://registry.yarnpkg.com/@vercel/vc-native-darwin-x64/-/vc-native-darwin-x64-65.10.0.tgz#0a68303beacfd782edf0bc3a694c941ea834b970"
+  integrity sha512-oD4C+TokU9YFAyl4Z7GDlemD3HsngiwsNonBR7/6BzL/Nw5aQjp2M4BV9AMan+u30s6uklro/VBo0qjI6H6orA==
 
-"@vercel/vc-native-linux-arm64-musl@65.9.0":
-  version "65.9.0"
-  resolved "https://registry.yarnpkg.com/@vercel/vc-native-linux-arm64-musl/-/vc-native-linux-arm64-musl-65.9.0.tgz#0dc3dde11d790ee6809c391b5ddbf14dac73fccc"
-  integrity sha512-muvKrqoXLHcwwQPuI87ic0mObMMdjZiftcvky50gI4loLUemPRg/SD+GlSpP+jB4texYTC1Cn34xEw1XLlBshA==
+"@vercel/vc-native-linux-arm64-musl@65.10.0":
+  version "65.10.0"
+  resolved "https://registry.yarnpkg.com/@vercel/vc-native-linux-arm64-musl/-/vc-native-linux-arm64-musl-65.10.0.tgz#bb5fd8453169e3aba39b664ea804a6d05f9babff"
+  integrity sha512-oJViwIZLLoCsYv5gUbnioxSvOCeffnpWSI2MuBar0vnZ+kRJgNdSxkBrKDb64J9hFgLgkLyzRl5ppcfE7XPd4g==
 
-"@vercel/vc-native-linux-arm64@65.9.0":
-  version "65.9.0"
-  resolved "https://registry.yarnpkg.com/@vercel/vc-native-linux-arm64/-/vc-native-linux-arm64-65.9.0.tgz#00d87f93eb1bb47b2f0f7122ec8bc81a8aab0b07"
-  integrity sha512-dTlH2o2T2z64VMuH5W91XhIVLhsRXTdXhj/PO1wdXAlyf/zmGHaUBGvrA/IPI0ysd+J0nsBcz96KGkbOhqhjhA==
+"@vercel/vc-native-linux-arm64@65.10.0":
+  version "65.10.0"
+  resolved "https://registry.yarnpkg.com/@vercel/vc-native-linux-arm64/-/vc-native-linux-arm64-65.10.0.tgz#f18f40e19861ff19b4d5c11b457231b39175c302"
+  integrity sha512-GhjcosaJqo1jWPnowDe/Ry4O97B2IaBc4pP/S7hbRgGqHtLfILK8pbbTae2aHP2cvgePbZUP2XdiVsGf2vVcfQ==
 
-"@vercel/vc-native-linux-x64-musl@65.9.0":
-  version "65.9.0"
-  resolved "https://registry.yarnpkg.com/@vercel/vc-native-linux-x64-musl/-/vc-native-linux-x64-musl-65.9.0.tgz#aa3fbd6a885df1d271e310e17575386701af7ddc"
-  integrity sha512-wbUca+QzwUSDBEWTyr9LEdlVTCtPn8VBIVx2p+Gl2nk2j19kpMEyf/04yodamRXYaccJEeQWM5sKDpwNaErrig==
+"@vercel/vc-native-linux-x64-musl@65.10.0":
+  version "65.10.0"
+  resolved "https://registry.yarnpkg.com/@vercel/vc-native-linux-x64-musl/-/vc-native-linux-x64-musl-65.10.0.tgz#ec4efd8523894f12bf3129cb2493ea8b255ff58d"
+  integrity sha512-BjUrXcDAfh4MQXhRn4fAfs2LMZJTqJOZVRH6fibu+vncnBdPB1SDLL8zx7XdNqXxEMt7FUmGy0rkOuljUV5R4w==
 
-"@vercel/vc-native-linux-x64@65.9.0":
-  version "65.9.0"
-  resolved "https://registry.yarnpkg.com/@vercel/vc-native-linux-x64/-/vc-native-linux-x64-65.9.0.tgz#e53892d3217614106bfa023c4a6dcc6bb5ff61b5"
-  integrity sha512-Up6XNsBwYdvrTT61acjS1bv3IKpWtbZyp7Ll0SdFVjyZUBVvNuNKmNEpnr8NIf6x2EGW/C9ZIfsWHDAONY/I2g==
+"@vercel/vc-native-linux-x64@65.10.0":
+  version "65.10.0"
+  resolved "https://registry.yarnpkg.com/@vercel/vc-native-linux-x64/-/vc-native-linux-x64-65.10.0.tgz#0dca2099d4623b456805133442d6b98888c769f6"
+  integrity sha512-tpTdd3jKH5vjwrK8YlZkHbgUnhgqrEG/jXk98D99QBH3p6UT/2yTerjOQ2VxuHJPGD6tzcY+HZvBPlgjZolZiQ==
+
+"@vercel/vc-native-win32-arm64@65.10.0":
+  version "65.10.0"
+  resolved "https://registry.yarnpkg.com/@vercel/vc-native-win32-arm64/-/vc-native-win32-arm64-65.10.0.tgz#32f6f2fea5d8df85a4b128d9e912071843050673"
+  integrity sha512-ZGm2klWtGkKkMROGGKNf/orIUMmYDqVzkcw7FiZHcgbN9IPLL0OK3+lbVTqHySnkMChurMP/fJhJyQmhFRFPgQ==
+
+"@vercel/vc-native-win32-x64@65.10.0":
+  version "65.10.0"
+  resolved "https://registry.yarnpkg.com/@vercel/vc-native-win32-x64/-/vc-native-win32-x64-65.10.0.tgz#e7024ec8e586fc83480f016d16d1f3fe02540e31"
+  integrity sha512-TCqCQBBfmEGtHi4g6uenNjtihBEN8SJ1oMYeOQ4ZHdGd1IslGec6qSXM/f4RsTlSs7uFMeq3UQdl5IdWEm1Q9A==
 
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"
@@ -19815,16 +19825,16 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@65.9.0:
-  version "65.9.0"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-65.9.0.tgz#a5183014d3832a51308c3a50cecc2f862cc29f83"
-  integrity sha512-uROjH+BpZP18DXTruhl4JTVvZbRZPIG89gFN8xZ5V66WLK660Qc+3rITATIG82/yrEm3d3GpYGavISc52kBn/w==
+vercel@65.10.0:
+  version "65.10.0"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-65.10.0.tgz#5e78d774d123fe811ddd133ea158fc3addd8f34c"
+  integrity sha512-dXoJ5FqmbnUqpIJ/wBRXJnc/+fiARikuPA80wFJF3IfhS0/dpH+rv2oIKfpylWTe7p4gtHAIX3svZBiUA81cng==
   dependencies:
     "@vercel/backends" "24.0.1"
     "@vercel/blob" "2.8.0"
     "@vercel/build-utils" "15.2.1"
-    "@vercel/cli-auth" "0.3.14"
-    "@vercel/cli-config" "0.3.5"
+    "@vercel/cli-auth" "0.3.15"
+    "@vercel/cli-config" "0.3.6"
     "@vercel/container" "24.0.1"
     "@vercel/detect-agent" "1.2.7"
     "@vercel/elysia" "24.0.1"
@@ -19840,8 +19850,8 @@ vercel@65.9.0:
     "@vercel/next" "28.0.1"
     "@vercel/node" "29.0.1"
     "@vercel/prepare-flags-definitions" "0.6.1"
-    "@vercel/python" "30.0.1"
-    "@vercel/python-analysis" "0.15.2"
+    "@vercel/python" "30.1.0"
+    "@vercel/python-analysis" "0.15.3"
     "@vercel/redwood" "26.0.1"
     "@vercel/remix-builder" "29.0.1"
     "@vercel/ruby" "26.0.1"
@@ -19856,15 +19866,17 @@ vercel@65.9.0:
     smol-toml "1.5.2"
     undici "5.29.0"
     uuid "14.0.1"
-    zod "4.1.11"
+    zod "4.6.7"
   optionalDependencies:
-    "@vercel/cli-support" "65.9.0"
-    "@vercel/vc-native-darwin-arm64" "65.9.0"
-    "@vercel/vc-native-darwin-x64" "65.9.0"
-    "@vercel/vc-native-linux-arm64" "65.9.0"
-    "@vercel/vc-native-linux-arm64-musl" "65.9.0"
-    "@vercel/vc-native-linux-x64" "65.9.0"
-    "@vercel/vc-native-linux-x64-musl" "65.9.0"
+    "@vercel/cli-support" "65.10.0"
+    "@vercel/vc-native-darwin-arm64" "65.10.0"
+    "@vercel/vc-native-darwin-x64" "65.10.0"
+    "@vercel/vc-native-linux-arm64" "65.10.0"
+    "@vercel/vc-native-linux-arm64-musl" "65.10.0"
+    "@vercel/vc-native-linux-x64" "65.10.0"
+    "@vercel/vc-native-linux-x64-musl" "65.10.0"
+    "@vercel/vc-native-win32-arm64" "65.10.0"
+    "@vercel/vc-native-win32-x64" "65.10.0"
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"
@@ -20654,6 +20666,11 @@ zod@4.1.11:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/zod/-/zod-4.1.11.tgz#4aab62f76cfd45e6c6166519ba31b2ea019f75f5"
   integrity sha512-WPsqwxITS2tzx1bzhIKsEs19ABD5vmCVa4xBo2tq/SrV4RNZtfws1EnCWQXM6yh8bD08a1idvkB5MZSBiZsjwg==
+
+zod@4.6.7, zod@^4.6.6:
+  version "4.6.7"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-4.6.7.tgz#e806cf64a7f4e37635ce9f2f52c04c3766f75e5b"
+  integrity sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==
 
 zod@^4.1.1:
   version "4.3.6"
