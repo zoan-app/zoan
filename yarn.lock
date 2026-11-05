@@ -4682,23 +4682,23 @@
     path-to-regexp "8.4.2"
     tslib "2.9.1"
 
-"@nestjs/graphql@14.1.2":
-  version "14.1.2"
-  resolved "https://registry.yarnpkg.com/@nestjs/graphql/-/graphql-14.1.2.tgz#06a2d772f76113cfbc7dd19c3ed0a1743fc79a06"
-  integrity sha512-vXgV5RFFcTR+VW3P+gz6kPHjj/SFW+8BGB4vsDiLcbM150+jIPG3DRONwpdnj/e3sMrE1tppZ7EbsRORSOtdpA==
+"@nestjs/graphql@14.2.0":
+  version "14.2.0"
+  resolved "https://registry.yarnpkg.com/@nestjs/graphql/-/graphql-14.2.0.tgz#ae357b30d07089e9f8cf59fed96d673eab7937c0"
+  integrity sha512-c2O60usbv0JXNdxyHwc71wtu5cnzbuxbdnY64QleUWfiAsCvXsCJeZ9KE+Tp4XSZOaT7gqolsSFGP4p3pwZVwA==
   dependencies:
     "@graphql-tools/merge" "9.2.8"
     "@graphql-tools/schema" "10.1.5"
     "@graphql-tools/utils" "12.1.0"
     "@nestjs/mapped-types" "12.0.1"
     chokidar "4.0.3"
-    es-toolkit "1.52.0"
+    es-toolkit "1.53.1"
     graphql-tag "2.12.7"
-    graphql-ws "6.3.0"
+    graphql-ws "6.4.1"
     normalize-path "3.0.0"
     tinyglobby "0.2.17"
     tslib "2.8.1"
-    ws "8.22.0"
+    ws "8.22.1"
 
 "@nestjs/mapped-types@12.0.1":
   version "12.0.1"
@@ -10373,10 +10373,10 @@ es-to-primitive@^1.3.0:
     is-date-object "^1.0.5"
     is-symbol "^1.0.4"
 
-es-toolkit@1.52.0:
-  version "1.52.0"
-  resolved "https://registry.yarnpkg.com/es-toolkit/-/es-toolkit-1.52.0.tgz#71eaf1a8b18834ef77637eccbb885ba4c03cd6dd"
-  integrity sha512-XTNEJQh1tY1ZJVcf6ayP/2n4ZPyaHlW2FWs7xvw5ddPuhUVjLD3olQVQS7kf58JbAB48iL0uL/jerTrjtV3lDA==
+es-toolkit@1.53.1:
+  version "1.53.1"
+  resolved "https://registry.yarnpkg.com/es-toolkit/-/es-toolkit-1.53.1.tgz#740294017da9f4ca052de31544648f3566b8ec5b"
+  integrity sha512-VhMc6IXmexu8iYFfL2aaAww6IvJTdHlqBLruLoEUs33YD4IcP5DdZcLOybMsMmmLsiy1c8PsiLsrM0DdIuuRUA==
 
 esbuild@0.27.0:
   version "0.27.0"
@@ -12065,10 +12065,10 @@ graphql-tools@10.0.8:
   optionalDependencies:
     "@apollo/client" "~4.3.5"
 
-graphql-ws@6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-6.3.0.tgz#9e8a04cf79ef977ee665e2966d97064110d97d98"
-  integrity sha512-qBAXPtFjWHF3QypDyNcBp8Rycd+rmofxUSJsu3bGI9QMMq7pImKBSLSg9hZ2ojIMbJ54T/LPjKBIeOUoJbNBnQ==
+graphql-ws@6.4.1:
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-6.4.1.tgz#67b8478efdbafdf657fc490715021601f90129d3"
+  integrity sha512-a3MzY5u+tCHHwuyimzxMAHZQ6TY7bOpkQURtKXE5kKIkBdsZ2axlb7sLzMpzGFO4guhws9FyMVB1onyX58pO4w==
 
 graphql@17.0.2:
   version "17.0.2"
@@ -20490,10 +20490,10 @@ write-file-atomic@^5.0.1:
     imurmurhash "^0.1.4"
     signal-exit "^4.0.1"
 
-ws@8.22.0:
-  version "8.22.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.22.0.tgz#40f16e1d7588ac0575041be5c49b8eb261c28e73"
-  integrity sha512-Ydggc987+RO0AnWtZ/7Wq9FtNvcrL1b/RO0ud9mWjUPgDrsAAwQSF51sm2hm1XofbU/4jkpGEsLFsZZxU+1DOg==
+ws@8.22.1:
+  version "8.22.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.22.1.tgz#60d427870e8272ddb10c7fc5cdf00a70eaec369e"
+  integrity sha512-oyL6OPYme/CmiFvNuGzeoxCJ4nOrZE2O1FwM9MWM1AsGri6nLXB2pg+lNA8aLeXMSav0J6eIVS1j6vUPzUtK9g==
 
 ws@^7.4.5:
   version "7.4.5"
