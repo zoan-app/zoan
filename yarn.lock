@@ -3237,10 +3237,10 @@
     http-errors "^2.0.0"
     mime "^3"
 
-"@fastify/static@10.1.12":
-  version "10.1.12"
-  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-10.1.12.tgz#a79399a3a3fc94ac520e9239a86dc06106abbcc2"
-  integrity sha512-D0pmf8OgurIsKiIjxC8ZJP/bCYnUSAiU6PS/se/6Me63UoliAu8FqrzDRX8FdgJMqFMXy45ISlfUZ1Gi6AJnqA==
+"@fastify/static@11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/static/-/static-11.0.0.tgz#26b361e998cb9821ee19d504a05a5bf9ff5e0169"
+  integrity sha512-QCa8K1wesN35bBXnI0zmXJWjUoisrTtiaXJpbGBUjWH6vATzQ9B0Z4GVjmoF08N7CtLHAOvUWzpUqxrFIJBuMQ==
   dependencies:
     "@fastify/accept-negotiator" "^2.0.0"
     "@fastify/error" "^4.0.0"
